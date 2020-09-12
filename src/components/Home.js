@@ -5,6 +5,7 @@ export const Home = props => {
     return (
         <View style={StyleSheet.home}>
             <Text style={StyleSheet.text}>{props.title}</Text>
+            
         </View>
     )
 }

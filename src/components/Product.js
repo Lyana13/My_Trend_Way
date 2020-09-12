@@ -72,8 +72,6 @@ export default function App() {
 </TouchableOpacity>
         
 
-   
-
 </ScrollView>
       </SafeAreaView>
     </>
