@@ -21,7 +21,7 @@ import {
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
-export default function App() {
+export default function Product() {
   return (
     <>
       <SafeAreaView
@@ -92,4 +92,4 @@ const BtnSign = styled.TouchableOpacity`
     color: "#26FBDA";
 `;
 
-export default App;
+export default Product;

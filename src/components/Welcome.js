@@ -1,46 +1,99 @@
 import React from 'react'
-import { View, Text, StyleSheet, Button, TextInput } from 'react-native'
+import { View, Text, StyleSheet, Button, TextInput, Image, TouchableOpacity, ImageBackground } from 'react-native'
 
 export const Welcome = props => {
     return (
+    <ImageBackground source={require('../assets/image/home.jpeg')} style={styles.image}>
+
+<Image source={require('../assets/image/text-brand.png')} style={styles.brand} />
         <View style={styles.home}>
-            <Text style={styles.text}>{props.title}</Text>
           <View style={styles.wrapBtn}>
-            <Button style={styles.btn} title='tit' color="#000"/>
-            <Button title='tit' color="#3768B5"/>
-            <Button title='Sign Up' color="#841584" style={{color: 'red', marginTop: 80, padding: 100}} />
+          <TouchableOpacity style={styles.btnApple} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
+            <Text style={styles.textWhite}> Continue with Apple </Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btnFacebook} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
+            <Text style={styles.textWhite}> Continue with Facebook </Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btnSignUP} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
+            <Text style={styles.textBlack}> Sign Up </Text>
+          </TouchableOpacity>
           </View>
-          <Text style={styles.txt}>TESTTEKS5T</Text>
+          <Text style={styles.txt}>Already have an account? Log in</Text>
         </View>
+        </ImageBackground>
     )
 }
 
 const styles = StyleSheet.create({
   home: {
     flex: 1,
-    backgroundColor: '#f8f',
-    paddingTop: 30,
     width: '100%'
   },
-  text: {
+  btnApple: {
+    backgroundColor: '#000',
+    alignItems: 'center',
+    width: 300,
+    padding: 10,
+    borderColor: "#000",
+    borderWidth: 2,
+    borderRadius: 5,
+  },
+  btnFacebook: {
+    backgroundColor: '#3768B5',
+    alignItems: 'center',
+    width: 300,
+    padding: 10,
+    marginTop: 20,
+    borderColor: "#3768B5",
+    borderWidth: 2,
+    borderRadius: 5,
+  },
+  btnSignUP: {
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    width: 300,
+    padding: 10,
+    marginTop: 20,
+    borderColor: "#FFFFFF",
+    borderWidth: 2,
+    borderRadius: 5,
+  },
+  textWhite: {
     color: "#fff",
-    fontSize: 35,
+    fontSize: 20,
     textAlign: 'center',
-    paddingTop: 60,
-  },  
+    fontWeight: 'bold',
+  }, 
+  textBlack: {
+    color: "#000",
+    fontSize: 20,
+    textAlign: 'center',
+    fontWeight: 'bold'
+  }, 
   wrapBtn: {
-    width: '80%',
-    marginTop: 230,
+    marginTop: 320,
     textAlign: 'center',
     margin: 40,
     borderBottomColor: '#737373',
   },
-  btn: {
-    paddingTop: 50,
+ 
+  brand: {
+    width: 300,
+    height: 50,
+    resizeMode: 'stretch',
+    marginTop: 120,
+    marginLeft: 50,
   },
   txt: {
     color: '#fff',
-    fontSize: 15,
+    fontSize: 17,
     textAlign: 'center',
-  }
+    fontWeight: 'bold'
+  },
+  image: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center",
+    width: 400,
+  },
 });

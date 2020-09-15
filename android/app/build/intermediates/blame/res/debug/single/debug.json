@@ -69,7 +69,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/layout_dev_loading_view.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/layout/dev_loading_view.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
@@ -357,7 +357,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_out.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/anim/catalyst_push_up_out.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/anim/catalyst_push_up_out.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -377,7 +377,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/xml_rn_dev_preferences.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/xml/rn_dev_preferences.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/xml/rn_dev_preferences.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -441,7 +441,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/layout_redbox_view.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/layout/redbox_view.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/layout/redbox_view.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_on_mtrl_dot_group_animation.xml.flat",
@@ -525,11 +525,11 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable_redbox_top_border_background.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/drawable/redbox_top_border_background.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/drawable/redbox_top_border_background.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/layout_redbox_item_frame.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/layout/redbox_item_frame.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -645,7 +645,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_in.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/anim/catalyst_fade_in.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/anim/catalyst_fade_in.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -737,7 +737,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/layout_redbox_item_title.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/layout/redbox_item_title.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -917,7 +917,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_out.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/anim/catalyst_fade_out.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/anim/catalyst_fade_out.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_light.xml.flat",
@@ -1069,7 +1069,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_up.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/anim/catalyst_slide_up.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/anim/catalyst_slide_up.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1365,7 +1365,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_down.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/anim/catalyst_slide_down.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/anim/catalyst_slide_down.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/interpolator_btn_checkbox_checked_mtrl_animation_interpolator_0.xml.flat",
@@ -1381,7 +1381,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/layout_fps_view.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/layout/fps_view.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/layout/fps_view.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
@@ -1469,7 +1469,7 @@
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_in.xml.flat",
-        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/res/anim/catalyst_push_up_in.xml"
+        "source": "/home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/res/anim/catalyst_push_up_in.xml"
     },
     {
         "merged": "/home/lyana/My_Trend_Way/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_dialog_material_background.xml.flat",
