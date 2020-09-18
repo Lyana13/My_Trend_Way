@@ -4,13 +4,9 @@ import IconCalendar from '../assets/icons/IconCalendar.png';
 
 export const SignIn = ({title}) => {
     const [value, onChangeText] = React.useState('EMAIL');
-    
-  
-
 
     return (
        
-        
         <View style={styles.container} >
             
             <TouchableOpacity  style={styles.tinyLogo} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>

@@ -8,7 +8,8 @@ MERGED from /home/lyana/My_Trend_Way/android/app/src/main/AndroidManifest.xml:1:
 MERGED from [com.facebook.flipper:flipper:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/a65d6076e19ec393c728e4dca49568f4/flipper-network-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-svg] /home/lyana/My_Trend_Way/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/lyana/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -47,7 +48,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/lyana/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/7795d60208f5dec52ee32d30407c8252/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/9c44c714e7f61700ba86ba0b726bac90/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/423cb70848bae0bf679fcff3046e0a73/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/16a7a717bdfddcdefa68c6d5a5ac9032/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
 INJECTED from /home/lyana/My_Trend_Way/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/lyana/My_Trend_Way/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -79,8 +80,8 @@ application
 ADDED from /home/lyana/My_Trend_Way/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /home/lyana/My_Trend_Way/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /home/lyana/My_Trend_Way/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/fe63e2f04783b5c513186b2b6e7e30fe/soloader-0.8.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/fe63e2f04783b5c513186b2b6e7e30fe/soloader-0.8.2/AndroidManifest.xml:11:5-20
 MERGED from [androidx.core:core:1.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
@@ -151,8 +152,10 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /home/lyana/.gr
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/a65d6076e19ec393c728e4dca49568f4/flipper-network-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/12762e8934d1ef7461556163ab7450fc/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /home/lyana/My_Trend_Way/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/lyana/My_Trend_Way/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/8a5e092b7572039ccc97554415b6959f/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /home/lyana/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
@@ -229,8 +232,8 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/lyana/.gradle/caches/t
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/9c44c714e7f61700ba86ba0b726bac90/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/423cb70848bae0bf679fcff3046e0a73/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/423cb70848bae0bf679fcff3046e0a73/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/16a7a717bdfddcdefa68c6d5a5ac9032/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/16a7a717bdfddcdefa68c6d5a5ac9032/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/lyana/My_Trend_Way/android/app/src/debug/AndroidManifest.xml
