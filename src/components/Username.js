@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet,ImageBackground, TextInput, Button,Image, Alert, TouchableOpacity } from 'react-native'
 import IconCalendar from '../assets/icons/angle-left-solid.svg';
 
-export const MobileNumber = ({title}) => {
+export const Username = ({title}) => {
     const [value, onChangeText] = React.useState('EMAIL');
 
     return (
@@ -15,14 +15,15 @@ export const MobileNumber = ({title}) => {
             <IconCalendar width={120} height={40}/>
             </View> 
             <View style={styles.flexAlign} >
-            <Text style={styles.number}>2</Text> 
-            <Text style={styles.welcome}>Mobile{'\n'}number</Text>
+            <Text style={styles.number}>4</Text> 
+            <Text style={styles.welcome}>Choose a{'\n'}username</Text>
                 </View>
-                <TextInput placeholder = "     +44" style={styles.input} onChangeText={text => onChangeText(text)} />
+                <TextInput placeholder = "     Username" style={styles.input} onChangeText={text => onChangeText(text)} />
                 
                 <View style={{ padding: 15, textAlign: 'center' }} >
                     <TouchableOpacity style={styles.buttonNext} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
                         <Text style={styles.text}> Next </Text>
+                        <Image style={styles.goBAck} source={require('../assets/icons/IconCalendar.png')} />
                     </TouchableOpacity>
                 </View> 
                 
