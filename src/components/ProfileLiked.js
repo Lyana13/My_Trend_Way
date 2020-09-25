@@ -12,7 +12,7 @@ import IconSearch from '../assets/icons/Search.svg';
 import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
 
-export const ProfileOutfits = ({title}) => {
+export const ProfileLiked = ({title}) => {
     return (
         <View>
             <View style={styles.container}>

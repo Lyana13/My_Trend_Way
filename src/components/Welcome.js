@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   },
   brand: {
     width: 300,
-    height: 50,
+    height: 40,
     resizeMode: 'stretch',
     marginTop: 100,
     marginLeft: 100

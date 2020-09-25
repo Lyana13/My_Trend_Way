@@ -1,31 +1,29 @@
 import React from 'react'
 import { View, Text, StyleSheet,ImageBackground, TextInput, Button,Image, Alert, TouchableOpacity } from 'react-native'
-import IconCalendar from '../assets/icons/IconCalendar.png';
+import IconCalendar from '../assets/icons/angle-left-solid.svg';
 
 export const SignIn = ({title}) => {
     const [value, onChangeText] = React.useState('EMAIL');
 
     return (
-       
         <View style={styles.container} >
-            
-            <TouchableOpacity  style={styles.tinyLogo} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
-                <Image source={require('../assets/icons/IconCalendar.png')} />
-            </TouchableOpacity >
-    
-                <Text style={styles.welcome}>Welcome Back</Text>
+            <View style={styles.flexAlign} >
+              <TouchableOpacity  onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
+                <Image style={styles.goBAck} source={require('../assets/icons/IconCalendar.png')} />
+              </TouchableOpacity >
+            </View> 
+            <View style={styles.flexAlignText}>
+              <Text style={styles.welcome}>Welcome{'\n'}Back</Text>
+            </View>
                 <TextInput placeholder = "     Email" style={styles.input} onChangeText={text => onChangeText(text)} />
                 <TextInput placeholder = "     Password" style={styles.input} />
-                
                 <View style={{ padding: 15, textAlign: 'center' }} >
                     <TouchableOpacity style={styles.button} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
                         <Text style={styles.text}> Sign In </Text>
                     </TouchableOpacity>
                     <Text style={styles.forgotPass}>Forgot password?</Text>
                 </View> 
-                
         </View>
-  
     )
 }
 
@@ -39,17 +37,29 @@ const styles = StyleSheet.create({
         resizeMode: "cover",
         justifyContent: "center"
       },
+      flexAlign: {
+        flex: 0, 
+        flexDirection: 'row',
+        alignItems: 'center'
+      },
+      flexAlignText: {
+        marginTop: 30,
+        marginLeft: 50,
+        marginBottom: 50
+      },  
+      goBAck: {
+        width: 15,
+        height: 15,
+        paddingLeft: 30,
+        marginTop: 40
+      },
       text: {
         color: "grey",
         fontSize: 30,
         fontWeight: "bold"
       },
-    tinyLogo: {
-        width: 50,
-        height: 50,
-      },
     welcome: {
-       fontSize: 30,
+       fontSize: 35,
        fontWeight: 'bold',
     },
     input: {
@@ -58,7 +68,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         backgroundColor: '#F2F2F2',
         color: '#000',
-        margin: 15,
+        margin: 10,
         borderRadius: 12,
         width: 330,
     },

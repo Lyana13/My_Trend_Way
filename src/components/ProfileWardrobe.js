@@ -12,7 +12,7 @@ import IconSearch from '../assets/icons/Search.svg';
 import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
 
-export const ProfileOutfits = ({title}) => {
+export const ProfileWardrobe = ({title}) => {
     return (
         <View>
             <View style={styles.container}>
@@ -41,18 +41,35 @@ export const ProfileOutfits = ({title}) => {
                 <IconHeart  width={30} height={60} />
                 <IconCreate  width={30} height={60} />
             </View>
+            <View style={styles.categories}>
+                <View style={styles.categoriesItems}>
+                    <Text>Dresss</Text>
+                </View>
+                <View style={styles.categoriesItems}>
+                    <Text>Tops</Text>
+                </View>
+                <View style={styles.categoriesItems}>
+                    <Text>Jeans</Text>
+                </View>
+                <View style={styles.categoriesItems}>
+                    <Text>Shorts</Text>
+                </View>
+            </View>
             <SafeAreaView >
                 <ScrollView >
                     <View>
                         <View style={styles.example}>
                             <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
                             <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
+                            <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
                         </View>
                         <View style={styles.example}>
+                        <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
                             <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
                             <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
                         </View>
                         <View style={styles.example}>
+                        <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
                             <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
                             <Image style={styles.exampleImg} source={require('../assets/image/example.jpeg')} />
                         </View>
@@ -108,16 +125,34 @@ const styles = StyleSheet.create({
           justifyContent: 'space-evenly',
           alignItems:'center',
       },
-
+      categories: {
+        flexDirection: 'row',
+        justifyContent: 'space-evenly',
+        alignItems:'center',
+    },
+    iconCategories: {
+      width: 30,
+      height: 30
+    },
+    categoriesItems: {
+        borderWidth: 1.5,
+        borderColor: '#00FCDE',
+        borderRadius: 5,
+        padding: 3,
+        marginRight: 30,
+        width: 80,
+        alignItems: 'center'
+      },
       example: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems:'center',
     },
     exampleImg: {
-        maxWidth: 200,
+        maxWidth: 100,
         maxHeight: 200,
-        margin: 7
+        borderRadius: 10,
+        marginTop: 20
     },
     bottomBar: {
         justifyContent: 'space-around',
