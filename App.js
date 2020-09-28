@@ -10,7 +10,12 @@ import { Username } from './src/components/Username'
 import { ProfileOutfits } from './src/components/ProfileOutfits'
 import { ProfileWardrobe } from './src/components/ProfileWardrobe'
 import { ProfileLiked } from './src/components/ProfileLiked'
- 
+
+import { EditProfile } from './src/components/EditProfile'
+import { AccountSetting } from './src/components/AccountSetting' 
+import { AccountDetails } from './src/components/AccountDetails' 
+
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -24,8 +29,12 @@ export default function App() {
 
 
       {/* <ProfileOutfits /> */}
-      <ProfileWardrobe/>
+      {/* <ProfileWardrobe/> */}
       {/* <ProfileLiked /> */}
+
+      {/* <EditProfile /> */}
+      <AccountDetails />
+      {/* <AccountSetting /> */}
       
 
     </View>
