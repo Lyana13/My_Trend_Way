@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, Text, Button } from 'react-native'
+import { StyleSheet, View, Text, Button, TouchableWithoutFeedback } from 'react-native'
 import { Welcome } from './src/components/Welcome'
 import { SignIn } from './src/components/SignIn'
 import { CreateAccount } from './src/components/CreateAccount'
@@ -16,10 +16,45 @@ import { AccountSetting } from './src/components/AccountSetting'
 import { AccountDetails } from './src/components/AccountDetails' 
 import { NewPassword } from './src/components/NewPassword' 
 import { Help } from './src/components/Help'
+import { BottomPopup } from './src/components/BottomPopup'
 
-export default function App() {
+const popuplist = [
+  {
+    id: 1,
+    name: 'Task'
+  },
+  {
+    id: 2,
+    name: 'Message'
+  },
+  {
+    id: 3,
+    name: 'Note'
+  }
+]
+
+const App = () => {
+  let popupRef = React.createRef()
+
+  const onShowPopup = () => {
+    popupRef.show()
+  }
+
+  const onClosePopup = () => {
+    popupRef.close()
+  }
+
   return (
     <View style={styles.container}>
+      <TouchableWithoutFeedback onPress={onShowPopup}>
+        <Text>Show Popup</Text>
+      </TouchableWithoutFeedback>
+      <BottomPopup
+        title="Demo Popup"
+        ref={(target) => popupRef = target}
+        onTouchOutside={onClosePopup}
+        data={popuplist}
+    />
       {/* <Welcome /> */}
        {/* <SignIn  /> */}
       {/* <CreateAccount /> */}
@@ -33,12 +68,14 @@ export default function App() {
       {/* <ProfileWardrobe/> */}
       {/* <ProfileLiked /> */}
 
+      {/* <AccountSetting /> */}
       {/* <EditProfile /> */}
       {/* <AccountDetails /> */}
-      {/* <AccountSetting /> */}
+     
       {/* <NewPassword /> */}
+    {/* <Help /> */}
+
     
-    <Help />
     </View>
   )
 }
@@ -53,3 +90,5 @@ const styles = StyleSheet.create({
         alignItems: 'center'
   },
 });
+
+export default App;

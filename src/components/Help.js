@@ -9,14 +9,13 @@ export const Help = ({title}) => {
                 <IconBack width={20} height={20} />
                 <Text style={styles.title}>We're here to help</Text>
             </View>
-           
             <View style={styles.container}>
                 <View style={styles.wrapElements}>
                     <Text style={styles.txt}>Please describe the issues you are facing and we be in touch as soon as possible to resolve it.</Text> 
                 </View>
                 <TextInput placeholder = "     Message..." style={styles.input} onChangeText={text => onChangeText(text)} />
                   <TouchableOpacity style={styles.buttonNext} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
-                    <Text style={styles.text}> Send </Text>
+                    <Text style={styles.text}> Send</Text>
                   </TouchableOpacity>
             </View>   
         </View>
