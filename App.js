@@ -14,7 +14,8 @@ import { ProfileLiked } from './src/components/ProfileLiked'
 import { EditProfile } from './src/components/EditProfile'
 import { AccountSetting } from './src/components/AccountSetting' 
 import { AccountDetails } from './src/components/AccountDetails' 
-
+import { NewPassword } from './src/components/NewPassword' 
+import { Help } from './src/components/Help'
 
 export default function App() {
   return (
@@ -33,10 +34,11 @@ export default function App() {
       {/* <ProfileLiked /> */}
 
       {/* <EditProfile /> */}
-      <AccountDetails />
+      {/* <AccountDetails /> */}
       {/* <AccountSetting /> */}
-      
-
+      {/* <NewPassword /> */}
+    
+    <Help />
     </View>
   )
 }

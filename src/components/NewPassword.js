@@ -7,7 +7,7 @@ import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
 import IconShield from '../assets/icons/Shield.svg';
 
-export const AccountDetails = ({title}) => {
+export const NewPassword = ({title}) => {
     return (
         <View style={styles.container}>
             <View style={styles.wrapTitle}>
@@ -20,18 +20,26 @@ export const AccountDetails = ({title}) => {
                     <Text style={styles.txt}>Email and Phone</Text>
                     <IconMenu style={styles.elemEnd} width={20} height={30} />   
                 </View>
-               
-                  <TextInput placeholder = "     Rachel.j97@gmail.com" style={styles.input} onChangeText={text => onChangeText(text)} /> 
-                  <TextInput placeholder = "     07573452266" style={styles.input} onChangeText={text => onChangeText(text)} />   
-            
                 <View style={styles.wrapElements} >
                     <Text style={styles.txt}>Change Password</Text>
                     <IconMenu style={styles.elemEnd} width={20} height={30} />   
                 </View>
+                <TextInput placeholder = "     Current" style={styles.input} onChangeText={text => onChangeText(text)} /> 
+                  <TextInput placeholder = "     New Password" style={styles.input} onChangeText={text => onChangeText(text)} />   
+                  <TextInput placeholder = "     Confirm New Password" style={styles.input} onChangeText={text => onChangeText(text)} />  
+                  <TouchableOpacity style={styles.buttonNext} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
+              <Text style={styles.text}>Save</Text>
+            </TouchableOpacity>
+
                 <View style={styles.wrapElements} >
                     <Text style={styles.txt}>Language</Text>
                     <IconMenu style={styles.elemEnd} width={20} height={30} />   
                 </View>
+                <TextInput placeholder = "   English" style={styles.input} onChangeText={text => onChangeText(text)} />  
+                  <TouchableOpacity style={styles.buttonNext} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
+              <Text style={styles.text}>Change</Text>
+            </TouchableOpacity>
+
                 <View style={styles.wrapElements} >
                     <Text style={styles.txt}>Help</Text>
                     <IconMenu style={styles.elemEnd} width={20} height={30} />   
@@ -83,5 +91,21 @@ const styles = StyleSheet.create({
     },
     inputWrap: {
       margin: 10
+    },
+    text: {
+        color: "#fff",
+        fontSize: 18,
+        fontWeight: "bold"
+    },
+    buttonNext: {
+        marginTop: 20,
+        flex: 0,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: "#000",
+        width: 330,
+        padding: 13,
+        borderRadius: 12,
     },
 })
