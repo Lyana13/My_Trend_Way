@@ -68,7 +68,7 @@ export class BottomPopup extends React.Component {
 
     renderItem = ({item}) => {
         return  (
-            <View style={{height: 50, flex: 1, alignItems: 'flex-start'}}>
+            <View style={{height: 50, flex: 1, alignItems: 'flex-start', marginLeft: 20}}>
                 <Text style={{fontSize: 18, fontWeight: 'normal', color: '#182E44'}}>{item.name}</Text>
             </View>
         )
@@ -104,7 +104,7 @@ export class BottomPopup extends React.Component {
                         <View style={{
                             backgroundColor: "#FFFFFF",
                             width: "100%",
-                            borderTopRightRadius: 10,
+                            borderTopRightRadius: 20,
                             borderTopLeftRadius: 10,
                             paddingHorizontal: 10,
                             maxHeight: deviceHeight * 0.4 

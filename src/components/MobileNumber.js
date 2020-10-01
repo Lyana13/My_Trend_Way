@@ -19,7 +19,7 @@ export const MobileNumber = ({title}) => {
             <Text style={styles.welcome}>Mobile{'\n'}number</Text>
           </View>
           <View style={styles.inputWrap}>
-            <IconDown width={20} height={30} />
+            {/* <IconDown width={20} height={30} /> */}
               <TextInput placeholder = "     +44" style={styles.input} onChangeText={text => onChangeText(text)} />
           </View>
           <View style={{ padding: 15, textAlign: 'center' }} >

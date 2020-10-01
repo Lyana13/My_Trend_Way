@@ -46,15 +46,15 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      <TouchableWithoutFeedback onPress={onShowPopup}>
+      {/* <TouchableWithoutFeedback onPress={onShowPopup}>
         <Text>Show Popup</Text>
-      </TouchableWithoutFeedback>
-      <BottomPopup
+      </TouchableWithoutFeedback> 
+       <BottomPopup
         title="Demo Popup"
         ref={(target) => popupRef = target}
         onTouchOutside={onClosePopup}
         data={popuplist}
-    />
+    />  */}
       {/* <Welcome /> */}
        {/* <SignIn  /> */}
       {/* <CreateAccount /> */}
@@ -70,7 +70,7 @@ const App = () => {
 
       {/* <AccountSetting /> */}
       {/* <EditProfile /> */}
-      {/* <AccountDetails /> */}
+      <AccountDetails />
      
       {/* <NewPassword /> */}
     {/* <Help /> */}

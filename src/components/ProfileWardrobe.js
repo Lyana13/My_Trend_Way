@@ -14,6 +14,8 @@ import IconProfile from '../assets/icons/Profile.svg';
 
 export const ProfileWardrobe = ({title}) => {
     return (
+        <SafeAreaView >
+        <ScrollView >
         <View>
             <View style={styles.container}>
             <View style={styles.nickname} >
@@ -85,6 +87,9 @@ export const ProfileWardrobe = ({title}) => {
                 <IconProfile width={25} height={30} />
             </View>
         </View>
+        </ScrollView >
+        </SafeAreaView >
+               
     )
 }
 

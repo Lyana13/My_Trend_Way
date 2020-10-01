@@ -6,6 +6,9 @@ import IconClose from '../assets/icons/X.svg';
 
 export const EditProfile = ({title}) => {
     return (
+       
+        <SafeAreaView >
+        <ScrollView >
         <View>
             <View style={styles.container}>
             <View style={styles.nickname} >
@@ -42,6 +45,8 @@ export const EditProfile = ({title}) => {
             </View>
             </View>   
         </View>
+        </ScrollView >
+        </SafeAreaView >
     )
 }
 

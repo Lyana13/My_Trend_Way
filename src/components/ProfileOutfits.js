@@ -13,6 +13,7 @@ import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
 
 export const ProfileOutfits = ({title}) => {
+
     return (
         <View>
             <View style={styles.container}>
@@ -41,6 +42,7 @@ export const ProfileOutfits = ({title}) => {
                 <IconHeart  width={30} height={60} />
                 <IconCreate  width={30} height={60} />
             </View>
+            <View style={styles.horizontal}></View>
             <SafeAreaView >
                 <ScrollView >
                     <View>
@@ -96,6 +98,12 @@ const styles = StyleSheet.create({
         paddingLeft: 80,
         paddingRight: 80
       },
+      horizontal: {
+        opacity: 0.1,
+        backgroundColor: '#022',
+        height: 2,
+        marginBottom: 20
+    },
       textProfile: {
         fontSize: 17,
       },
