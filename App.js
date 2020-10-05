@@ -17,7 +17,8 @@ import { AccountDetails } from './src/components/AccountDetails'
 import { NewPassword } from './src/components/NewPassword' 
 import { Help } from './src/components/Help'
 import { BottomPopup } from './src/components/BottomPopup'
-
+import { ForgotPassword } from './src/components/ForgotPassword'
+import { ForgotPassword2 } from './src/components/ForgotPassword2.js'
 const popuplist = [
   {
     id: 1,
@@ -61,7 +62,8 @@ const App = () => {
       {/* <MobileNumber /> */}
       {/* <EmailAddress title='TRENDWAY' /> */}
       {/* <Username /> */}
-      
+      {/* <ForgotPassword /> */}
+      <ForgotPassword2 />
 
 
       {/* <ProfileOutfits /> */}
@@ -70,12 +72,10 @@ const App = () => {
 
       {/* <AccountSetting /> */}
       {/* <EditProfile /> */}
-      <AccountDetails />
+      {/* <AccountDetails /> */}
      
       {/* <NewPassword /> */}
     {/* <Help /> */}
-
-    
     </View>
   )
 }
