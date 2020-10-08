@@ -9,6 +9,17 @@ package androidx.fragment;
 public final class R {
     private R() {}
 
+    public static final class anim {
+        private anim() {}
+
+        public static final int fragment_close_enter = 0x7f01001e;
+        public static final int fragment_close_exit = 0x7f01001f;
+        public static final int fragment_fade_enter = 0x7f010020;
+        public static final int fragment_fade_exit = 0x7f010021;
+        public static final int fragment_fast_out_extra_slow_in = 0x7f010022;
+        public static final int fragment_open_enter = 0x7f010023;
+        public static final int fragment_open_exit = 0x7f010024;
+    }
     public static final class attr {
         private attr() {}
 
@@ -121,30 +132,32 @@ public final class R {
         public static final int chronometer = 0x7f07004f;
         public static final int dialog_button = 0x7f070057;
         public static final int forever = 0x7f070064;
-        public static final int icon = 0x7f070069;
-        public static final int icon_group = 0x7f07006a;
-        public static final int info = 0x7f07006d;
-        public static final int italic = 0x7f07006e;
-        public static final int line1 = 0x7f07006f;
-        public static final int line3 = 0x7f070070;
-        public static final int normal = 0x7f070078;
-        public static final int notification_background = 0x7f070079;
-        public static final int notification_main_column = 0x7f07007a;
-        public static final int notification_main_column_container = 0x7f07007b;
-        public static final int right_icon = 0x7f070083;
-        public static final int right_side = 0x7f070084;
-        public static final int tag_accessibility_actions = 0x7f0700a9;
-        public static final int tag_accessibility_clickable_spans = 0x7f0700aa;
-        public static final int tag_accessibility_heading = 0x7f0700ab;
-        public static final int tag_accessibility_pane_title = 0x7f0700ac;
-        public static final int tag_screen_reader_focusable = 0x7f0700ad;
-        public static final int tag_transition_group = 0x7f0700ae;
-        public static final int tag_unhandled_key_event_manager = 0x7f0700af;
-        public static final int tag_unhandled_key_listeners = 0x7f0700b0;
-        public static final int text = 0x7f0700b1;
-        public static final int text2 = 0x7f0700b2;
-        public static final int time = 0x7f0700b5;
-        public static final int title = 0x7f0700b6;
+        public static final int fragment_container_view_tag = 0x7f070066;
+        public static final int icon = 0x7f07006c;
+        public static final int icon_group = 0x7f07006d;
+        public static final int info = 0x7f070070;
+        public static final int italic = 0x7f070071;
+        public static final int line1 = 0x7f070072;
+        public static final int line3 = 0x7f070073;
+        public static final int normal = 0x7f07007b;
+        public static final int notification_background = 0x7f07007c;
+        public static final int notification_main_column = 0x7f07007d;
+        public static final int notification_main_column_container = 0x7f07007e;
+        public static final int right_icon = 0x7f070087;
+        public static final int right_side = 0x7f070088;
+        public static final int tag_accessibility_actions = 0x7f0700af;
+        public static final int tag_accessibility_clickable_spans = 0x7f0700b0;
+        public static final int tag_accessibility_heading = 0x7f0700b1;
+        public static final int tag_accessibility_pane_title = 0x7f0700b2;
+        public static final int tag_screen_reader_focusable = 0x7f0700b3;
+        public static final int tag_transition_group = 0x7f0700b4;
+        public static final int tag_unhandled_key_event_manager = 0x7f0700b5;
+        public static final int tag_unhandled_key_listeners = 0x7f0700b6;
+        public static final int text = 0x7f0700b7;
+        public static final int text2 = 0x7f0700b8;
+        public static final int time = 0x7f0700bb;
+        public static final int title = 0x7f0700bc;
+        public static final int visible_removing_fragment_view_tag = 0x7f0700cc;
     }
     public static final class integer {
         private integer() {}
@@ -203,6 +216,13 @@ public final class R {
         public static final int FontFamilyFont_fontVariationSettings = 7;
         public static final int FontFamilyFont_fontWeight = 8;
         public static final int FontFamilyFont_ttcIndex = 9;
+        public static final int[] Fragment = { 0x1010003, 0x10100d0, 0x10100d1 };
+        public static final int Fragment_android_name = 0;
+        public static final int Fragment_android_id = 1;
+        public static final int Fragment_android_tag = 2;
+        public static final int[] FragmentContainerView = { 0x1010003, 0x10100d1 };
+        public static final int FragmentContainerView_android_name = 0;
+        public static final int FragmentContainerView_android_tag = 1;
         public static final int[] GradientColor = { 0x101019d, 0x101019e, 0x10101a1, 0x10101a2, 0x10101a3, 0x10101a4, 0x1010201, 0x101020b, 0x1010510, 0x1010511, 0x1010512, 0x1010513 };
         public static final int GradientColor_android_startColor = 0;
         public static final int GradientColor_android_endColor = 1;

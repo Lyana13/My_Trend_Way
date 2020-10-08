@@ -25,7 +25,7 @@
 17        android:allowBackup="false"
 17-->/home/lyana/My_Trend_Way/android/app/src/main/AndroidManifest.xml:11:7-34
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/1667af20f7c5fbd17b27fd9fd70bfb91/core-1.2.0/AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
 20-->/home/lyana/My_Trend_Way/android/app/src/main/AndroidManifest.xml:9:7-41

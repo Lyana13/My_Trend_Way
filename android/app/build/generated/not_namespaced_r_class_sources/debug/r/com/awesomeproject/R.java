@@ -39,6 +39,13 @@ public final class R {
     public static final int catalyst_push_up_out=0x7f01001b;
     public static final int catalyst_slide_down=0x7f01001c;
     public static final int catalyst_slide_up=0x7f01001d;
+    public static final int fragment_close_enter=0x7f01001e;
+    public static final int fragment_close_exit=0x7f01001f;
+    public static final int fragment_fade_enter=0x7f010020;
+    public static final int fragment_fade_exit=0x7f010021;
+    public static final int fragment_fast_out_extra_slow_in=0x7f010022;
+    public static final int fragment_open_enter=0x7f010023;
+    public static final int fragment_open_exit=0x7f010024;
   }
   public static final class attr {
     /**
@@ -3283,99 +3290,111 @@ public final class R {
     public static final int focusCrop=0x7f070063;
     public static final int forever=0x7f070064;
     public static final int fps_text=0x7f070065;
-    public static final int group_divider=0x7f070066;
-    public static final int home=0x7f070067;
-    public static final int homeAsUp=0x7f070068;
-    public static final int icon=0x7f070069;
-    public static final int icon_group=0x7f07006a;
-    public static final int ifRoom=0x7f07006b;
-    public static final int image=0x7f07006c;
-    public static final int info=0x7f07006d;
-    public static final int italic=0x7f07006e;
-    public static final int line1=0x7f07006f;
-    public static final int line3=0x7f070070;
-    public static final int listMode=0x7f070071;
-    public static final int list_item=0x7f070072;
-    public static final int message=0x7f070073;
-    public static final int middle=0x7f070074;
-    public static final int multiply=0x7f070075;
-    public static final int never=0x7f070076;
-    public static final int none=0x7f070077;
-    public static final int normal=0x7f070078;
-    public static final int notification_background=0x7f070079;
-    public static final int notification_main_column=0x7f07007a;
-    public static final int notification_main_column_container=0x7f07007b;
-    public static final int off=0x7f07007c;
-    public static final int on=0x7f07007d;
-    public static final int parentPanel=0x7f07007e;
-    public static final int progress_circular=0x7f07007f;
-    public static final int progress_horizontal=0x7f070080;
-    public static final int radio=0x7f070081;
-    public static final int react_test_id=0x7f070082;
-    public static final int right_icon=0x7f070083;
-    public static final int right_side=0x7f070084;
-    public static final int rn_frame_file=0x7f070085;
-    public static final int rn_frame_method=0x7f070086;
-    public static final int rn_redbox_dismiss_button=0x7f070087;
-    public static final int rn_redbox_line_separator=0x7f070088;
-    public static final int rn_redbox_loading_indicator=0x7f070089;
-    public static final int rn_redbox_reload_button=0x7f07008a;
-    public static final int rn_redbox_report_button=0x7f07008b;
-    public static final int rn_redbox_report_label=0x7f07008c;
-    public static final int rn_redbox_stack=0x7f07008d;
-    public static final int screen=0x7f07008e;
-    public static final int scrollIndicatorDown=0x7f07008f;
-    public static final int scrollIndicatorUp=0x7f070090;
-    public static final int scrollView=0x7f070091;
-    public static final int search_badge=0x7f070092;
-    public static final int search_bar=0x7f070093;
-    public static final int search_button=0x7f070094;
-    public static final int search_close_btn=0x7f070095;
-    public static final int search_edit_frame=0x7f070096;
-    public static final int search_go_btn=0x7f070097;
-    public static final int search_mag_icon=0x7f070098;
-    public static final int search_plate=0x7f070099;
-    public static final int search_src_text=0x7f07009a;
-    public static final int search_voice_btn=0x7f07009b;
-    public static final int select_dialog_listview=0x7f07009c;
-    public static final int shortcut=0x7f07009d;
-    public static final int showCustom=0x7f07009e;
-    public static final int showHome=0x7f07009f;
-    public static final int showTitle=0x7f0700a0;
-    public static final int spacer=0x7f0700a1;
-    public static final int split_action_bar=0x7f0700a2;
-    public static final int src_atop=0x7f0700a3;
-    public static final int src_in=0x7f0700a4;
-    public static final int src_over=0x7f0700a5;
-    public static final int submenuarrow=0x7f0700a6;
-    public static final int submit_area=0x7f0700a7;
-    public static final int tabMode=0x7f0700a8;
-    public static final int tag_accessibility_actions=0x7f0700a9;
-    public static final int tag_accessibility_clickable_spans=0x7f0700aa;
-    public static final int tag_accessibility_heading=0x7f0700ab;
-    public static final int tag_accessibility_pane_title=0x7f0700ac;
-    public static final int tag_screen_reader_focusable=0x7f0700ad;
-    public static final int tag_transition_group=0x7f0700ae;
-    public static final int tag_unhandled_key_event_manager=0x7f0700af;
-    public static final int tag_unhandled_key_listeners=0x7f0700b0;
-    public static final int text=0x7f0700b1;
-    public static final int text2=0x7f0700b2;
-    public static final int textSpacerNoButtons=0x7f0700b3;
-    public static final int textSpacerNoTitle=0x7f0700b4;
-    public static final int time=0x7f0700b5;
-    public static final int title=0x7f0700b6;
-    public static final int titleDividerNoCustom=0x7f0700b7;
-    public static final int title_template=0x7f0700b8;
-    public static final int top=0x7f0700b9;
-    public static final int topPanel=0x7f0700ba;
-    public static final int unchecked=0x7f0700bb;
-    public static final int uniform=0x7f0700bc;
-    public static final int up=0x7f0700bd;
-    public static final int useLogo=0x7f0700be;
-    public static final int view_tag_instance_handle=0x7f0700bf;
-    public static final int view_tag_native_id=0x7f0700c0;
-    public static final int withText=0x7f0700c1;
-    public static final int wrap_content=0x7f0700c2;
+    public static final int fragment_container_view_tag=0x7f070066;
+    public static final int ghost_view=0x7f070067;
+    public static final int ghost_view_holder=0x7f070068;
+    public static final int group_divider=0x7f070069;
+    public static final int home=0x7f07006a;
+    public static final int homeAsUp=0x7f07006b;
+    public static final int icon=0x7f07006c;
+    public static final int icon_group=0x7f07006d;
+    public static final int ifRoom=0x7f07006e;
+    public static final int image=0x7f07006f;
+    public static final int info=0x7f070070;
+    public static final int italic=0x7f070071;
+    public static final int line1=0x7f070072;
+    public static final int line3=0x7f070073;
+    public static final int listMode=0x7f070074;
+    public static final int list_item=0x7f070075;
+    public static final int message=0x7f070076;
+    public static final int middle=0x7f070077;
+    public static final int multiply=0x7f070078;
+    public static final int never=0x7f070079;
+    public static final int none=0x7f07007a;
+    public static final int normal=0x7f07007b;
+    public static final int notification_background=0x7f07007c;
+    public static final int notification_main_column=0x7f07007d;
+    public static final int notification_main_column_container=0x7f07007e;
+    public static final int off=0x7f07007f;
+    public static final int on=0x7f070080;
+    public static final int parentPanel=0x7f070081;
+    public static final int parent_matrix=0x7f070082;
+    public static final int progress_circular=0x7f070083;
+    public static final int progress_horizontal=0x7f070084;
+    public static final int radio=0x7f070085;
+    public static final int react_test_id=0x7f070086;
+    public static final int right_icon=0x7f070087;
+    public static final int right_side=0x7f070088;
+    public static final int rn_frame_file=0x7f070089;
+    public static final int rn_frame_method=0x7f07008a;
+    public static final int rn_redbox_dismiss_button=0x7f07008b;
+    public static final int rn_redbox_line_separator=0x7f07008c;
+    public static final int rn_redbox_loading_indicator=0x7f07008d;
+    public static final int rn_redbox_reload_button=0x7f07008e;
+    public static final int rn_redbox_report_button=0x7f07008f;
+    public static final int rn_redbox_report_label=0x7f070090;
+    public static final int rn_redbox_stack=0x7f070091;
+    public static final int save_non_transition_alpha=0x7f070092;
+    public static final int save_overlay_view=0x7f070093;
+    public static final int screen=0x7f070094;
+    public static final int scrollIndicatorDown=0x7f070095;
+    public static final int scrollIndicatorUp=0x7f070096;
+    public static final int scrollView=0x7f070097;
+    public static final int search_badge=0x7f070098;
+    public static final int search_bar=0x7f070099;
+    public static final int search_button=0x7f07009a;
+    public static final int search_close_btn=0x7f07009b;
+    public static final int search_edit_frame=0x7f07009c;
+    public static final int search_go_btn=0x7f07009d;
+    public static final int search_mag_icon=0x7f07009e;
+    public static final int search_plate=0x7f07009f;
+    public static final int search_src_text=0x7f0700a0;
+    public static final int search_voice_btn=0x7f0700a1;
+    public static final int select_dialog_listview=0x7f0700a2;
+    public static final int shortcut=0x7f0700a3;
+    public static final int showCustom=0x7f0700a4;
+    public static final int showHome=0x7f0700a5;
+    public static final int showTitle=0x7f0700a6;
+    public static final int spacer=0x7f0700a7;
+    public static final int split_action_bar=0x7f0700a8;
+    public static final int src_atop=0x7f0700a9;
+    public static final int src_in=0x7f0700aa;
+    public static final int src_over=0x7f0700ab;
+    public static final int submenuarrow=0x7f0700ac;
+    public static final int submit_area=0x7f0700ad;
+    public static final int tabMode=0x7f0700ae;
+    public static final int tag_accessibility_actions=0x7f0700af;
+    public static final int tag_accessibility_clickable_spans=0x7f0700b0;
+    public static final int tag_accessibility_heading=0x7f0700b1;
+    public static final int tag_accessibility_pane_title=0x7f0700b2;
+    public static final int tag_screen_reader_focusable=0x7f0700b3;
+    public static final int tag_transition_group=0x7f0700b4;
+    public static final int tag_unhandled_key_event_manager=0x7f0700b5;
+    public static final int tag_unhandled_key_listeners=0x7f0700b6;
+    public static final int text=0x7f0700b7;
+    public static final int text2=0x7f0700b8;
+    public static final int textSpacerNoButtons=0x7f0700b9;
+    public static final int textSpacerNoTitle=0x7f0700ba;
+    public static final int time=0x7f0700bb;
+    public static final int title=0x7f0700bc;
+    public static final int titleDividerNoCustom=0x7f0700bd;
+    public static final int title_template=0x7f0700be;
+    public static final int top=0x7f0700bf;
+    public static final int topPanel=0x7f0700c0;
+    public static final int transition_current_scene=0x7f0700c1;
+    public static final int transition_layout_save=0x7f0700c2;
+    public static final int transition_position=0x7f0700c3;
+    public static final int transition_scene_layoutid_cache=0x7f0700c4;
+    public static final int transition_transform=0x7f0700c5;
+    public static final int unchecked=0x7f0700c6;
+    public static final int uniform=0x7f0700c7;
+    public static final int up=0x7f0700c8;
+    public static final int useLogo=0x7f0700c9;
+    public static final int view_tag_instance_handle=0x7f0700ca;
+    public static final int view_tag_native_id=0x7f0700cb;
+    public static final int visible_removing_fragment_view_tag=0x7f0700cc;
+    public static final int withText=0x7f0700cd;
+    public static final int wrap_content=0x7f0700ce;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3904,6 +3923,7 @@ public final class R {
     public static final int Widget_Compat_NotificationActionContainer=0x7f0d0171;
     public static final int Widget_Compat_NotificationActionText=0x7f0d0172;
     public static final int redboxButton=0x7f0d0173;
+    public static final int sign_in_with_apple_button_DialogTheme=0x7f0d0174;
   }
   public static final class styleable {
     /**
@@ -8217,6 +8237,92 @@ public final class R {
      * @attr name com.awesomeproject:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
+    /**
+     * Attributes that can be used with a Fragment.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Fragment_android_name android:name}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Fragment_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Fragment_android_tag android:tag}</code></td><td></td></tr>
+     * </table>
+     * @see #Fragment_android_name
+     * @see #Fragment_android_id
+     * @see #Fragment_android_tag
+     */
+    public static final int[] Fragment={
+      0x01010003, 0x010100d0, 0x010100d1
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#name}
+     * attribute's value can be found in the {@link #Fragment} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:name
+     */
+    public static final int Fragment_android_name=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #Fragment} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int Fragment_android_id=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#tag}
+     * attribute's value can be found in the {@link #Fragment} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:tag
+     */
+    public static final int Fragment_android_tag=2;
+    /**
+     * Attributes that can be used with a FragmentContainerView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #FragmentContainerView_android_name android:name}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FragmentContainerView_android_tag android:tag}</code></td><td></td></tr>
+     * </table>
+     * @see #FragmentContainerView_android_name
+     * @see #FragmentContainerView_android_tag
+     */
+    public static final int[] FragmentContainerView={
+      0x01010003, 0x010100d1
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#name}
+     * attribute's value can be found in the {@link #FragmentContainerView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:name
+     */
+    public static final int FragmentContainerView_android_name=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#tag}
+     * attribute's value can be found in the {@link #FragmentContainerView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:tag
+     */
+    public static final int FragmentContainerView_android_tag=1;
     /**
      * Attributes that can be used with a GenericDraweeHierarchy.
      * <p>Includes the following attributes:</p>

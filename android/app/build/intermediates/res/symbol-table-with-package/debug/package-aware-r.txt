@@ -29,6 +29,13 @@ anim catalyst_push_up_in
 anim catalyst_push_up_out
 anim catalyst_slide_down
 anim catalyst_slide_up
+anim fragment_close_enter
+anim fragment_close_exit
+anim fragment_fade_enter
+anim fragment_fade_exit
+anim fragment_fast_out_extra_slow_in
+anim fragment_open_enter
+anim fragment_open_exit
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -755,6 +762,9 @@ id flipper_skip_view_traversal
 id focusCrop
 id forever
 id fps_text
+id fragment_container_view_tag
+id ghost_view
+id ghost_view_holder
 id group_divider
 id home
 id homeAsUp
@@ -780,6 +790,7 @@ id notification_main_column_container
 id off
 id on
 id parentPanel
+id parent_matrix
 id progress_circular
 id progress_horizontal
 id radio
@@ -795,6 +806,8 @@ id rn_redbox_reload_button
 id rn_redbox_report_button
 id rn_redbox_report_label
 id rn_redbox_stack
+id save_non_transition_alpha
+id save_overlay_view
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -840,12 +853,18 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id transition_current_scene
+id transition_layout_save
+id transition_position
+id transition_scene_layoutid_cache
+id transition_transform
 id unchecked
 id uniform
 id up
 id useLogo
 id view_tag_instance_handle
 id view_tag_native_id
+id visible_removing_fragment_view_tag
 id withText
 id wrap_content
 integer abc_config_activityDefaultDur
@@ -1364,6 +1383,7 @@ style Widget_AppCompat_Toolbar_Button_Navigation
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 style redboxButton
+style sign_in_with_apple_button_DialogTheme
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -1385,6 +1405,8 @@ styleable CompoundButton android_button buttonCompat buttonTint buttonTintMode
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
+styleable Fragment android_name android_id android_tag
+styleable FragmentContainerView android_name android_tag
 styleable GenericDraweeHierarchy actualImageScaleType backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset

@@ -11,6 +11,12 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+// @invertase/react-native-apple-authentication
+import com.RNAppleAuthentication.AppleAuthenticationAndroidPackage;
+// react-native-gesture-handler
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-reanimated
+import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-svg
 import com.horcrux.svg.SvgPackage;
 
@@ -58,6 +64,9 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new AppleAuthenticationAndroidPackage(),
+      new RNGestureHandlerPackage(),
+      new ReanimatedPackage(),
       new SvgPackage()
     ));
   }

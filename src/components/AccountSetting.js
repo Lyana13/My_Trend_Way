@@ -10,14 +10,46 @@ import IconEmail from '../assets/icons/Email.svg';
 import IconCircle from '../assets/icons/circle.svg';
 import Lock from '../assets/icons/Lock.svg';
 
+import BottomSheet from 'reanimated-bottom-sheet';
+import Animated from 'react-native-reanimated';
+
 export const AccountSetting = ({title}) => {
+    renderInner = () => (
+        <Text>YETEYETKU</Text>
+    );
+
+    renderHeader = () => (
+        <View style={styles.header}>
+            <View style={styles.panalHeader}>
+                <View style={styles.panelHandle}></View>
+            </View>
+        </View>
+    );
+
+    bs = React.createRef();
+    fall = new Animated.Value(1);
+
     return (
+        
         <View style={{
             flex: 1, 
             backgroundColor: "#EEE", 
             justifyContent: 'flex-end'}}
             > 
-        <View style={styles.main}>
+            <TouchableOpacity onPress={() => this.bs.current.snapTo(0)}>
+                <Text>Text</Text>
+            </TouchableOpacity>
+            <View style={styles.main}>
+            <BottomSheet 
+                ref={this.bs}
+                snapPoints={[330, 0]}
+                renderContent={this.renderInner}
+                renderHeader={this.renderHeader}
+                initialSnap={1}
+                callbackNode={this.fall}
+                enabledContentGestureInteraction={true}
+            />
+           
             <Text style={styles.title}>Settings</Text>
             <View style={styles.horizontal}></View>
             <View style={styles.container}>
@@ -93,5 +125,25 @@ const styles = StyleSheet.create({
         backgroundColor: '#182E44',
         height: 2,
         marginTop: 20,
-      }
+      },
+      header: {
+          backgroundColor: '#fff',
+          shadowColor: "#333",
+          shadowOffset: {width: -1, height: -3},
+          shadowRadius: 2,
+          shadowOpacity: 0.4,
+          paddingTop: 20,
+          borderTopLeftRadius: 20,
+          borderTopRightRadius: 20,
+      },
+      panalHeader: {
+          alignItems: 'center'
+      },
+      panelHandle: {
+        width: 40,
+        height: 8,
+        borderRadius: 4,
+        backgroundColor: "#000",
+        marginBottom: 10,
+      },
 })

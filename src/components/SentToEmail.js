@@ -1,34 +1,56 @@
 
 
 import React from 'react'
-import { View, Text, StyleSheet,ImageBackground, TextInput, Button,Image, Alert, TouchableOpacity } from 'react-native'
+import { View, Text, StyleSheet,ImageBackground,Animated, TextInput, Button,Image, Alert, TouchableOpacity} from 'react-native'
 import IconHeart from '../assets/icons/heart-regular.svg';
+import IconInsta from '../assets/icons/insta.svg';
+import IconFacebook from '../assets/icons/fb.svg';
+import IconFAppStore from '../assets/icons/appStore.svg';
+import IconTrendwayText from '../assets/icons/Trendway.svg';
 
 export const SentToEmail = ({title}) => {
     const [value, onChangeText] = React.useState('EMAIL');
-
+    const position = new Animated.ValueXY({x:0,y:0})
+    Animated.timing(position,{
+      toValue:{x:200,y:500},
+      duration:2000
+    }).start()
     return (
-        <View style={styles.container} >
+        
+         
+              <View style={styles.container} >
+                 <View style={{
+            flex: 1,
+          }}>
+            <Animated.View style={{
+              height: 80,
+              width: 80,
+              backgroundColor: "red",
+              transform:[
+                  {translateX:position.x},
+                  {translateY:position.y}
+              ]
+            }}>
+              </Animated.View>
+       </View>
            <View style={styles.flexAlignNumber} >
-          <Image source={require('../assets/image/text-brand.png')} style={styles.brand} />
+             <IconTrendwayText width={300} height={60}/>
             <Text style={styles.title}>WE'VE GOT YOU!</Text>
             <Text style={{width: 320, marginTop: 20}}>You recently ewquested a password feset for you Trendway account.Just click the link to reset it.</Text>
           </View>
           <View >
             <TouchableOpacity style={styles.buttonNext} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
               <Text style={styles.text}> RESET PASSWORD </Text>
-              
             </TouchableOpacity>
-   
           </View > 
             <Text style={{textAlign: 'center', marginBottom: 80}}>Thank's {'\n'}TRENDWAY team</Text>
             <View style={{flex: 0, justifyContent: 'space-evenly', flexDirection: "row"}}>
-            <IconHeart  width={30} height={60} />
-            <IconHeart  width={30} height={60} />
+            <IconFacebook  width={15} height={60} />
+            <IconInsta  width={40} height={60} />
             <IconHeart  width={30} height={60} />
             </View>
             <View style={{flex: 0, justifyContent: 'space-evenly', flexDirection: "row"}}>
-            <IconHeart  width={30} height={60} />
+            <IconFAppStore  width={150} height={100} />
             </View>
         </View>
     )
@@ -37,14 +59,7 @@ export const SentToEmail = ({title}) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        flexDirection: "column",
-        backgroundColor: "#777"
-      },
-      brand: {
-        width: 320,
-        height: 35,
-        marginTop: 30,
-        marginLeft: 10
+        flexDirection: "column"
       },
      
       flexAlignNumber: {
@@ -52,7 +67,6 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         marginTop: 30,
-        marginLeft: 30,
         marginBottom: 40
       },
       image: {
@@ -99,10 +113,9 @@ const styles = StyleSheet.create({
       flexDirection: 'row',
       justifyContent: 'center',
       backgroundColor: "#26FBDA",
-        width: 380,
+        width: 370,
         padding: 15,
         borderRadius: 12,
-        marginLeft: 25,
         marginBottom: 40
       },
 })
