@@ -32,13 +32,17 @@ export const Home = ({title}) => {
             </View>
             <View style={styles.wrapImages}>
             <View>
-            <Image style={styles.imgMain} source={require('../assets/image/model.jpg')} />
+            <Image style={styles.imgMain} source={require('../assets/image/model.png')} />
             </View>
 
             <View style={{flex: 0, flexDirection: 'column'}}>
-            <Image style={styles.imgSecondary} source={require('../assets/image/model.jpg')} />
-            <Image style={styles.imgSecondary} source={require('../assets/image/model.jpg')} />
-            <Image style={styles.imgSecondary} source={require('../assets/image/model.jpg')} />
+            <Image style={styles.imgSecondary} source={require('../assets/image/bag.png')} />
+            <Image style={styles.imgSecondary} source={require('../assets/image/shoes.png')} />
+            <View style={{flex: 0, flexDirection: 'row'}}>
+            <Image style={styles.imgSecondaryTwo} source={require('../assets/image/earrings.png')} />
+            <Image style={styles.imgSecondaryThree} source={require('../assets/image/pjmade.png')} />
+            </View>
+           
             </View>
             
             </View>
@@ -55,6 +59,12 @@ export const Home = ({title}) => {
                 <Text>345 views</Text>
             </View>
 
+            </View>
+            <Text>Party Ready!</Text>
+            <Text>#party #dressy #glam</Text>
+            <View style={styles.wraplogoText}>
+                <Image style={styles.imgProfile} source={require('../assets/icons/brand.jpg')} />
+                <Text style={styles.logoText}>Trendway</Text>
             </View>
             <View>
             <View style={styles.bottomBar}>
@@ -119,8 +129,8 @@ const styles = StyleSheet.create({
           backgroundColor: '#D8E1E8'
         },
       imgMain: {
-        minHeight: 400,
-        width: 230,
+        width: 210,
+        height: 430,
         margin: 5
       },
       imgSecondary: {
@@ -128,6 +138,16 @@ const styles = StyleSheet.create({
        width: 180,
        margin: 5
       },
+      imgSecondaryTwo: {
+        maxHeight: 133,
+        width: 100,
+        margin: 5
+       },
+       imgSecondaryThree: {
+        maxHeight: 133,
+        width: 70,
+        margin: 5
+       },
       wrapOption: {
       flexDirection: 'row',
       alignItems: 'center',

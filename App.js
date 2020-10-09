@@ -67,7 +67,7 @@ const App = () => {
       {/* <Username /> */}
       {/* <ForgotPassword /> */}
       {/* <ForgotPassword2 /> */}
-      {/* <Home /> */}
+      <Home />
       {/* <SentToEmail /> */}
 
 
@@ -75,7 +75,7 @@ const App = () => {
       {/* <ProfileWardrobe/> */}
       {/* <ProfileLiked /> */}
 
-      <AccountSetting />
+      {/* <AccountSetting /> */}
       {/* <EditProfile /> */}
       {/* <AccountDetails /> */}
      

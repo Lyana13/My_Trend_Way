@@ -15,7 +15,39 @@ import Animated from 'react-native-reanimated';
 
 export const AccountSetting = ({title}) => {
     renderInner = () => (
-        <Text>YETEYETKU</Text>
+        <View>
+            <Text style={styles.title}>Settings</Text>
+        <View style={styles.wrapElements} >      
+                    <IconProfile width={25} height={30} />
+                    <Text style={styles.txt}>Edit Profile</Text>
+                    <IconForward style={styles.elemEnd} width={20} height={20} />   
+                </View>
+                <View style={styles.wrapElements} >      
+                    <IconShield width={25} height={30} />
+                    <Text style={styles.txt}>Private Account</Text>
+                    <IconCircle style={styles.elemEnd} width={20} height={20} />   
+                </View>
+                <View style={styles.wrapElements} >      
+                    <IconEmail width={25} height={30} />
+                    <Text style={styles.txt}>Account</Text>
+                    <IconForward style={styles.elemEnd} width={20} height={20} />   
+                </View>
+                <View style={styles.wrapElements} >      
+                    <IconNotification width={25} height={30} />
+                    <Text style={styles.txt}>Notifications</Text>
+                    <IconCircle style={styles.elemEnd} width={20} height={30} />   
+                </View>
+                <View style={styles.wrapElements} >      
+                    <Lock width={25} height={30} />
+                    <Text style={styles.txt}>Privacy policy</Text>
+                    <IconForward style={styles.elemEnd} width={20} height={20} />   
+                </View>
+
+        <TouchableOpacity
+        onPress={() => this.bs.current.snapTo(1)}>
+            <Text>CANSEL</Text>
+        </TouchableOpacity>
+        </View>
     );
 
     renderHeader = () => (
@@ -42,43 +74,19 @@ export const AccountSetting = ({title}) => {
             <View style={styles.main}>
             <BottomSheet 
                 ref={this.bs}
-                snapPoints={[330, 0]}
+                snapPoints={[380, 0]}
                 renderContent={this.renderInner}
                 renderHeader={this.renderHeader}
                 initialSnap={1}
                 callbackNode={this.fall}
-                enabledContentGestureInteraction={true}
+                enabledContentGestureInteraction={true}я
             />
            
-            <Text style={styles.title}>Settings</Text>
-            <View style={styles.horizontal}></View>
             <View style={styles.container}>
-                <View style={styles.wrapElements} >      
-                    <IconProfile width={25} height={30} />
-                    <Text style={styles.txt}>Edit Profile</Text>
-                    <IconForward style={styles.elemEnd} width={20} height={20} />   
-                </View>
-                <View style={styles.wrapElements} >      
-                    <IconShield width={25} height={30} />
-                    <Text style={styles.txt}>Private Account</Text>
-                    <IconCircle style={styles.elemEnd} width={20} height={20} />   
-                </View>
-                <View style={styles.wrapElements} >      
-                    <IconEmail width={25} height={30} />
-                    <Text style={styles.txt}>Account</Text>
-                    <IconForward style={styles.elemEnd} width={20} height={20} />   
-                </View>
-                <View style={styles.wrapElements} >      
-                    <IconNotification width={25} height={30} />
-                    <Text style={styles.txt}>Notifications</Text>
-                    <IconCircle style={styles.elemEnd} width={20} height={30} />   
-                </View>
-                <View style={styles.wrapElements} >      
-                    <Lock width={25} height={30} />
-                    <Text style={styles.txt}>Privacy policy</Text>
-                    <IconForward style={styles.elemEnd} width={20} height={20} />   
-                </View>
+            <View  style={styles.horizontal}></View>
+              
             </View>   
+            
         </View>
         </View>
     )
