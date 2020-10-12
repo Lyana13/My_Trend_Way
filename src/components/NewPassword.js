@@ -6,6 +6,7 @@ import IconBack from '../assets/icons/Back.svg';
 import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
 import IconShield from '../assets/icons/Shield.svg';
+import {colors, scale} from '../styles';
 
 export const NewPassword = ({title}) => {
     return (
@@ -80,13 +81,13 @@ const styles = StyleSheet.create({
         marginLeft: 300
       },
       input: {
-        height: 55,
+        height: scale(55),
         borderColor: '#fff',
         borderWidth: 1,
         backgroundColor: '#F2F2F2',
         color: '#000',
         borderRadius: 12,
-        width: 330,
+        width: scale(330),
         marginTop: 15 
     },
     inputWrap: {
@@ -104,7 +105,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: "#000",
-        width: 330,
+        width: scale(330),
         padding: 13,
         borderRadius: 12,
     },

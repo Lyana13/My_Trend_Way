@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, ScrollView, SafeAreaView, ImageBackground, Text
 
 import IconMenu from '../assets/icons/AccountMenu.svg';
 import IconClose from '../assets/icons/X.svg';
+import {colors, scale} from '../styles';
 
 export const EditProfile = ({title}) => {
     return (
@@ -84,13 +85,13 @@ const styles = StyleSheet.create({
           paddingTop: 10
       },
       input: {
-        height: 55,
+        height: scale(55),
         borderColor: '#fff',
         borderWidth: 1,
         backgroundColor: '#F2F2F2',
         color: '#000',
         borderRadius: 12,
-        width: 330,  
+        width: scale(330),  
         padding: 20
     },
 

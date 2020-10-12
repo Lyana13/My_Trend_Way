@@ -11,6 +11,7 @@ import IconHome from '../assets/icons/Home.svg';
 import IconSearch from '../assets/icons/Search.svg';
 import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
+import {colors, scale} from '../styles';
 
 export const ProfileOutfits = ({title}) => {
 
@@ -100,8 +101,8 @@ const styles = StyleSheet.create({
       },
       horizontal: {
         opacity: 0.1,
-        backgroundColor: '#022',
-        height: 2,
+        backgroundColor: colors.grayline,
+        height: scale(2),
         marginBottom: 20
     },
       textProfile: {
@@ -123,8 +124,8 @@ const styles = StyleSheet.create({
         alignItems:'center',
     },
     exampleImg: {
-        maxWidth: 200,
-        maxHeight: 200,
+        maxWidth: scale(200),
+        maxHeight: scale(200),
         margin: 7
     },
     bottomBar: {
@@ -132,6 +133,6 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         alignItems: 'center',
         padding: 15,
-        backgroundColor: '#fff',   
+        backgroundColor: colors.white,   
     }
 })

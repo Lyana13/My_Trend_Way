@@ -11,6 +11,7 @@ import IconHome from '../assets/icons/Home.svg';
 import IconSearch from '../assets/icons/Search.svg';
 import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
+import {colors, scale} from '../styles';
 
 export const ProfileLiked = ({title}) => {
     return (
@@ -115,8 +116,8 @@ const styles = StyleSheet.create({
         alignItems:'center',
     },
     exampleImg: {
-        maxWidth: 200,
-        maxHeight: 200,
+        maxWidth: scale(200),
+        maxHeight: scale(200),
         margin: 7
     },
     bottomBar: {
@@ -124,6 +125,6 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         alignItems: 'center',
         padding: 15,
-        backgroundColor: '#fff',   
+        backgroundColor: colors.white,   
     }
 })

@@ -12,6 +12,7 @@ import Lock from '../assets/icons/Lock.svg';
 
 import BottomSheet from 'reanimated-bottom-sheet';
 import Animated from 'react-native-reanimated';
+import {colors, scale} from '../styles';
 
 export const AccountSetting = ({title}) => {
     renderInner = () => (
@@ -83,10 +84,8 @@ export const AccountSetting = ({title}) => {
             />
            
             <View style={styles.container}>
-            <View  style={styles.horizontal}></View>
-              
+            <View  style={styles.horizontal}></View> 
             </View>   
-            
         </View>
         </View>
     )
@@ -131,7 +130,7 @@ const styles = StyleSheet.create({
       horizontal: {
         opacity: 0.1,
         backgroundColor: '#182E44',
-        height: 2,
+        height: scale(2),
         marginTop: 20,
       },
       header: {
@@ -148,8 +147,8 @@ const styles = StyleSheet.create({
           alignItems: 'center'
       },
       panelHandle: {
-        width: 40,
-        height: 8,
+        width: scale(40),
+        height: scale(8),
         borderRadius: 4,
         backgroundColor: "#000",
         marginBottom: 10,

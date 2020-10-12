@@ -19,7 +19,7 @@ import { Help } from './src/components/Help'
 import { BottomPopup } from './src/components/BottomPopup'
 import { ForgotPassword } from './src/components/ForgotPassword'
 import { ForgotPassword2 } from './src/components/ForgotPassword2'
-import { SentToEmail } from './src/components/SentToEmail'
+import { SendToEmail } from './src/components/SendToEmail'
 import { Home } from './src/components/Home'
 
 const popuplist = [
@@ -67,13 +67,13 @@ const App = () => {
       {/* <Username /> */}
       {/* <ForgotPassword /> */}
       {/* <ForgotPassword2 /> */}
-      <Home />
-      {/* <SentToEmail /> */}
+      {/* <Home /> */}
+      {/* <SendToEmail /> */}
 
 
       {/* <ProfileOutfits /> */}
       {/* <ProfileWardrobe/> */}
-      {/* <ProfileLiked /> */}
+      <ProfileLiked />
 
       {/* <AccountSetting /> */}
       {/* <EditProfile /> */}

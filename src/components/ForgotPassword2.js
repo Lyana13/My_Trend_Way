@@ -3,6 +3,7 @@
 import React from 'react'
 import { View, Text, StyleSheet,ImageBackground, TextInput, Button,Image, Alert, TouchableOpacity } from 'react-native'
 import IconCalendar from '../assets/icons/angle-left-solid.svg';
+import {colors, scale} from '../styles';
 
 export const ForgotPassword2 = ({title}) => {
     const [value, onChangeText] = React.useState('EMAIL');
@@ -61,15 +62,15 @@ const styles = StyleSheet.create({
         fontWeight: "bold"
       },
       goBAck: {
-        width: 15,
-        height: 15,
+        width: scale(15),
+        height: scale(15),
         paddingLeft: 0,
         marginLeft: 30
       },
     welcome: {
        fontSize: 40,
        fontWeight: 'bold',
-       color: "#000",
+       color: colors.black,
        marginRight: 120
     },
     text: {
@@ -95,7 +96,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: "#26FBDA",
-        width: 380,
+        width: scale(380),
         padding: 15,
         borderRadius: 12,
       },

@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, StyleSheet,ImageBackground, TextInput, Button,Image, Alert, TouchableOpacity } from 'react-native'
 import IconCalendar from '../assets/icons/angle-left-solid.svg';
+import {colors, scale} from '../styles';
 
 export const CreateAccount = ({title}) => {
     const [value, onChangeText] = React.useState('EMAIL');
@@ -61,11 +62,11 @@ const styles = StyleSheet.create({
       number: {
         fontSize: 100,
         fontWeight: "bold",
-        color: "#E4E4E4"
+        color: colors.grayLight
       },
       goBAck: {
-        width: 15,
-        height: 15,
+        width: scale(15),
+        height: scale(15),
         paddingLeft: 30,
      
       },
@@ -74,14 +75,14 @@ const styles = StyleSheet.create({
        fontWeight: 'bold',
     },
     input: {
-        height: 55,
-        borderColor: '#fff',
+        height: scale(55),
+        borderColor: colors.white,
         borderWidth: 1,
         backgroundColor: '#F2F2F2',
-        color: '#000',
+        color: colors.black,
         margin: 15,
         borderRadius: 12,
-        width: 330,
+        width: scale(330),
     },
     text: {
         fontSize: 20,
@@ -106,7 +107,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: "#F2F2F2",
-        width: 330,
+        width: scale(330),
         padding: 15,
         borderRadius: 12,
       },

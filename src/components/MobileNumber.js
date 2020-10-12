@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet,ImageBackground, TextInput, Button,Image, Alert, TouchableOpacity } from 'react-native'
 import IconGoBack from '../assets/icons/Back.svg';
 import IconDown from '../assets/icons/angle-down-solid.svg';
+import {colors, scale} from '../styles';
 
 export const MobileNumber = ({title}) => {
     const [value, onChangeText] = React.useState('EMAIL');
@@ -58,19 +59,19 @@ const styles = StyleSheet.create({
         justifyContent: "center"
       },
       text: {
-        color: "grey",
+        color: colors.gray,
         fontSize: 30,
         fontWeight: "bold"
       },
       number: {
         fontSize: 100,
         fontWeight: "bold",
-        color: "#E4E4E4",
+        color: colors.grayLight,
         paddingRight: 10,
       },
       goBAck: {
-        width: 15,
-        height: 15,
+        width: scale(15),
+        height: scale(15),
         paddingLeft: 30,
       },
     welcome: {
@@ -114,7 +115,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
         backgroundColor: "#F2F2F2",
-        width: 330,
+        width: scale(330),
         padding: 15,
         borderRadius: 12,
       },

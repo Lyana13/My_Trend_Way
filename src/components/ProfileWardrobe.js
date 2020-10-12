@@ -11,6 +11,7 @@ import IconHome from '../assets/icons/Home.svg';
 import IconSearch from '../assets/icons/Search.svg';
 import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
+import {colors, scale} from '../styles';
 
 export const ProfileWardrobe = ({title}) => {
     return (
@@ -136,16 +137,16 @@ const styles = StyleSheet.create({
         alignItems:'center',
     },
     iconCategories: {
-      width: 30,
-      height: 30
+      width: scale(30),
+      height: scale(30)
     },
     categoriesItems: {
         borderWidth: 1.5,
-        borderColor: '#00FCDE',
+        borderColor: colors.blue,
         borderRadius: 5,
         padding: 3,
         marginRight: 30,
-        width: 80,
+        width: scale(80),
         alignItems: 'center'
       },
       example: {
@@ -164,6 +165,6 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         alignItems: 'center',
         padding: 15,
-        backgroundColor: '#fff',   
+        backgroundColor: colors.white,   
     }
 })

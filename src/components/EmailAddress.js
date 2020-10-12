@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, StyleSheet,ImageBackground, TextInput, Button,Image, Alert, TouchableOpacity } from 'react-native'
 import IconGoBack from '../assets/icons/Back.svg';
+import {colors, scale} from '../styles';
 
 export const EmailAddress = ({title}) => {
     const [value, onChangeText] = React.useState('EMAIL');
@@ -67,8 +68,8 @@ const styles = StyleSheet.create({
         paddingRight: 10,
       },
       goBAck: {
-        width: 15,
-        height: 15,
+        width: scale(15),
+        height: scale(15),
         paddingLeft: 30,
       },
       welcome: {
@@ -76,14 +77,14 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
       },
       input: {
-        height: 55,
+        height: scale(55),
         borderColor: '#fff',
         borderWidth: 1,
         backgroundColor: '#F2F2F2',
         color: '#000',
         margin: 15,
         borderRadius: 12,
-        width: 330,  
+        width: scale(330),  
       },
       inputWrap: {
         marginTop: 50,
@@ -112,7 +113,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
         backgroundColor: "#F2F2F2",
-        width: 330,
+        width: scale(330),
         padding: 15,
         borderRadius: 12,
       },

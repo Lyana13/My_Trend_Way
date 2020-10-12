@@ -8,6 +8,7 @@ import IconNotification from '../assets/icons/Notification.svg';
 import IconProfile from '../assets/icons/Profile.svg';
 import IconOutfits from '../assets/icons/Outfits.svg';
 import IconCreate from '../assets/icons/Create.svg';
+import {colors, scale} from '../styles';
 
 export const Home = ({title}) => {
 
@@ -121,7 +122,7 @@ const styles = StyleSheet.create({
       textAlign: 'center'
       },
       forYou: {
-        backgroundColor: "#26FBDA",
+        backgroundColor: colors.mainBlue,
         borderRadius: 20,
         width: 100
       },
@@ -134,38 +135,38 @@ const styles = StyleSheet.create({
     horizontal: {
         opacity: 0.1,
         backgroundColor: '#182E44',
-        height: 2,
+        height: scale(2),
         marginTop: 20,
-        width: 400
+        width: scale(400)
       },
       wrapImages: {
           flex: 0,
           flexDirection: 'row',
           backgroundColor: '#D8E1E8',
-          height: 445
+          height: scale(445)
         },
       imgMain: {
-        width: 210,
-        height: 430,
+        width: scale(210),
+        height: scale(430),
         margin: 5
       },
       imgMainOne: {
-        width: 410,
-        height: 750,
+        width: scale(410),
+        height: scale(750),
       },
       imgSecondary: {
        maxHeight: 133,
-       width: 180,
+       width: scale(180),
        margin: 5
       },
       imgSecondaryTwo: {
         maxHeight: 133,
-        width: 100,
+        width: scale(100),
         margin: 5
        },
        imgSecondaryThree: {
         maxHeight: 133,
-        width: 70,
+        width: scale(70),
         margin: 5
        },
       wrapOption: {

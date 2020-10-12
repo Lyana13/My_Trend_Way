@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, StyleSheet, TextInput, Button,Image, Alert, TouchableOpacity } from 'react-native'
 import IconBack from '../assets/icons/Back.svg';
+import {colors, scale} from '../styles';
 
 export const Help = ({title}) => {
     return (
@@ -46,26 +47,26 @@ const styles = StyleSheet.create({
         fontSize: 17,
       },
       input: {
-        height: 300,
+        height: scale(300),
         borderColor: '#fff',
         borderWidth: 1,
         backgroundColor: '#F2F2F2',
         color: '#000',
         borderRadius: 12,
-        width: 365,
+        width: scale(365),
         marginTop: 35 
     },
     text: {
       fontSize: 18,
       fontWeight: 'bold',
-      color: "#fff"
+      color: colors.white
   },
   buttonNext: {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: "#000",
-    width: 365,
+    backgroundColor: colors.black,
+    width: scale(365),
     padding: 13,
       borderRadius: 12,
       marginTop: 25

@@ -1,5 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, Button, TextInput, Image, TouchableOpacity, ImageBackground } from 'react-native'
+import {colors, scale} from '../styles';
 
 export const Welcome = props => {
     return (
@@ -28,11 +29,11 @@ const styles = StyleSheet.create({
   image: {
     flex: 1,
     resizeMode: "cover",
-    width: 500,
+    width: scale(500),
   },
   brand: {
-    width: 300,
-    height: 40,
+    width: scale(300),
+    height: scale(40),
     resizeMode: 'stretch',
     marginTop: 100,
     marginLeft: 100
@@ -43,31 +44,31 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   btnApple: {
-    backgroundColor: '#000',
+    backgroundColor: colors.black,
     alignItems: 'center',
-    width: 300,
-    padding: 10,
+    width: scale(300),
+    padding: scale(10),
     borderColor: "#000",
     borderWidth: 2,
     borderRadius: 5,
   },
   btnFacebook: {
-    backgroundColor: '#3768B5',
+    backgroundColor: colors.darkBlue,
     alignItems: 'center',
-    width: 300,
+    width: scale(300),
     padding: 10,
     marginTop: 20,
-    borderColor: "#3768B5",
+    borderColor: colors.darkBlue,
     borderWidth: 2,
     borderRadius: 5,
   },
   btnSignUP: {
     backgroundColor: '#fff',
     alignItems: 'center',
-    width: 300,
+    width: scale(300),
     padding: 10,
     marginTop: 20,
-    borderColor: "#FFFFFF",
+    borderColor: colors.white,
     borderWidth: 2,
     borderRadius: 5,
   },
@@ -78,13 +79,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   }, 
   textBlack: {
-    color: "#000",
+    color: colors.black,
     fontSize: 20,
     textAlign: 'center',
     fontWeight: 'bold'
   }, 
   txt: {
-    color: '#fff',
+    color: colors.white,
     fontSize: 17,
     textAlign: 'center',
     fontWeight: 'bold',
