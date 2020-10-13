@@ -21,6 +21,7 @@ import { ForgotPassword } from './src/components/ForgotPassword'
 import { ForgotPassword2 } from './src/components/ForgotPassword2'
 import { SendToEmail } from './src/components/SendToEmail'
 import { Home } from './src/components/Home'
+import { ProductPage } from './src/components/ProductPage'
 
 const popuplist = [
   {
@@ -73,11 +74,13 @@ const App = () => {
 
       {/* <ProfileOutfits /> */}
       {/* <ProfileWardrobe/> */}
-      <ProfileLiked />
+      {/* <ProfileLiked /> */}
 
       {/* <AccountSetting /> */}
       {/* <EditProfile /> */}
       {/* <AccountDetails /> */}
+
+      <ProductPage />
      
       {/* <NewPassword /> */}
     {/* <Help /> */}
