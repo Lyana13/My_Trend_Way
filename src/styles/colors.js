@@ -6,5 +6,6 @@ export default {
     darkBlue: '#3768B5',
     gray: 'gray',
     grayLight: "#E4E4E4",
-    grayline: "#022"
+    grayline: "#022",
+    lightGray: "#F8F8F8",
 };

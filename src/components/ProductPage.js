@@ -52,6 +52,15 @@ export const ProductPage = ({title}) => {
                 <Text style={styles.logoText}>STYLED WITH</Text>
             </View>
             <View style={styles.wrapImages}>
+              <ScrollView style={{height:800}} horizontal={true}>
+              <View>
+                <Image style={styles.imgMain} source={require('../assets/image/model.png')} />
+                <View style={{marginLeft: 20}}>
+                    <Text style={styles.bold}>$32</Text>  
+                    <Text style={styles.bold}>Pretty Little Thing</Text>  
+                    <Text style={styles.bold}>Black Dress</Text>  
+                </View>
+              </View>
               <View>
                 <Image style={styles.imgMain} source={require('../assets/image/model.png')} />
                 <View style={{marginLeft: 20}}>
@@ -68,6 +77,7 @@ export const ProductPage = ({title}) => {
                     <Text style={styles.bold}>Black Dress</Text>  
                 </View>              
               </View>
+              </ScrollView>
             </View>    
             <View style={styles.bottomBar}>
             </View>
