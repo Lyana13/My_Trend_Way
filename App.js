@@ -23,6 +23,8 @@ import { SendToEmail } from './src/components/SendToEmail'
 import { Home } from './src/components/Home'
 import { ProductPage } from './src/components/ProductPage'
 import { Explore } from './src/components/Explore'
+import { SearchUsers } from './src/components/SearchUsers'
+
 
 const popuplist = [
   {
@@ -82,7 +84,9 @@ const App = () => {
       {/* <AccountDetails /> */}
 
       {/* <ProductPage /> */}
-      <Explore />
+      {/* <Explore /> */}
+
+      <SearchUsers />
      
       {/* <NewPassword /> */}
     {/* <Help /> */}

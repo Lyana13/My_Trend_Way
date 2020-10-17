@@ -8,4 +8,5 @@ export default {
     grayLight: "#E4E4E4",
     grayline: "#022",
     lightGray: "#F8F8F8",
+    lightGray2: "#F7F7F7",
 };
