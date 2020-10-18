@@ -24,7 +24,8 @@ import { Home } from './src/components/Home'
 import { ProductPage } from './src/components/ProductPage'
 import { Explore } from './src/components/Explore'
 import { SearchUsers } from './src/components/SearchUsers'
-
+import { SearchOutfits } from './src/components/SearchOutfits' 
+import { SearchItems } from './src/components/SearchItems' 
 
 const popuplist = [
   {
@@ -86,7 +87,9 @@ const App = () => {
       {/* <ProductPage /> */}
       {/* <Explore /> */}
 
-      <SearchUsers />
+      {/* <SearchUsers /> */}
+      {/* <SearchOutfits /> */}
+      <SearchItems />
      
       {/* <NewPassword /> */}
     {/* <Help /> */}

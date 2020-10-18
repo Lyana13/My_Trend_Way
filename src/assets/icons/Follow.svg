@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Follow" transform="translate(-319 -170)">
+    <g id="Profile" transform="translate(331.961 185.146)">
+      <path id="Объединение_1" data-name="Объединение 1" d="M0,23.854V20.873c0-3.281,5.367-5.964,11.927-5.964s11.927,2.684,11.927,5.964v2.981ZM5.963,5.964a5.964,5.964,0,1,1,5.964,5.963A5.964,5.964,0,0,1,5.963,5.964Z"/>
+    </g>
+    <g id="Прямоугольник_1542" data-name="Прямоугольник 1542" transform="translate(319 170)" fill="none" stroke="#000" stroke-width="2">
+      <rect width="56" height="56" rx="8" stroke="none"/>
+      <rect x="1" y="1" width="54" height="54" rx="7" fill="none"/>
+    </g>
+    <text id="_" data-name="+" transform="translate(361.692 197)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-10.945" y="0">+</tspan></text>
+  </g>
+</svg>

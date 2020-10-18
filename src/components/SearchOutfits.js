@@ -1,5 +1,6 @@
+
 import React from 'react'
-import { View, Text, StyleSheet,SafeAreaView,ScrollView, Image, Alert, TouchableOpacity, TextInput } from 'react-native'
+import { View, Text, StyleSheet,SafeAreaView,ScrollView, Image, Alert, TouchableOpacity } from 'react-native'
 import IconGarder from '../assets/icons/garder.svg';
 import IconLike from '../assets/icons/Like-Product Page.svg';
 import IconShare from '../assets/icons/ShareTel.svg';
@@ -9,106 +10,72 @@ import IconPlusPeople from '../assets/icons/IconPlusPeople.svg';
 import IconHeart from '../assets/icons/heart-regular.svg';
 import IconBack from '../assets/icons/Back.svg';
 import IconUpload from '../assets/icons/Share-outside.svg';
+import IconFilter from '../assets/icons/Filter.svg';
 import {colors, scale} from '../styles';
+import IconHome from '../assets/icons/Home.svg';
+import IconSearch from '../assets/icons/Search.svg';
+import IconNotification from '../assets/icons/Notification.svg';
+import IconProfile from '../assets/icons/Profile.svg';
 
-export const SearchUsers = ({title}) => {
+
+export const SearchOutfits = ({title}) => {
 
     return (
         <View style={styles.container}>
           <SafeAreaView>
           <ScrollView>
-          <View style={styles.topTab}>
-                {/* <IconBack width={20} height={20} /> */}
-                <TextInput placeholder = "     Search" style={styles.input} onChangeText={text => onChangeText(text)} />
-            </View>
-            <View style={styles.categories}>
-                <IconOutfits  width={25} height={60} />
-                <IconHeart  width={30} height={60} />
-                <IconCreate  width={30} height={60} />
-            </View>
-            <View>
-            <Image style={styles.imgProfile} source={require('../assets/image/users.png')} />
-            <IconPlusPeople width={65} height={60} />
+            <View style={styles.wrapImages}>
+              <View style={{flex: 0, flexDirection: 'column'}}>
+                <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+                <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+              </View>
+              <View>
+                <Image style={styles.imgMain} source={require('../assets/image/example2.jpeg')} />
+              </View>
             </View>
 
+            <View style={{flex: 0, flexDirection: 'row'}}>
+              <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+              <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+              <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+            </View>
+
+            <View style={styles.wrapImages}>
             <View>
-                <View style={styles.wrapContainer}>
-                    <Image style={styles.img} source={require('../assets/image/example2.jpeg')} />
-                </View>
-                <View style={styles.wrapImages}>
-                    <Image style={styles.imgInner} source={require('../assets/image/example.jpeg')} />
-                    <Image style={styles.imgInner} source={require('../assets/image/example.jpeg')} />
-                </View>
+                <Image style={styles.imgMain} source={require('../assets/image/example2.jpeg')} />
+              </View>
+              <View style={{flex: 0, flexDirection: 'column'}}>
+                <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+                <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+              </View>
+            </View>
+
+            <View style={styles.wrapImages}>
+              <View style={{flex: 0, flexDirection: 'column'}}>
+                <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+                <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+              </View>
+              <View>
+                <Image style={styles.imgMain} source={require('../assets/image/example2.jpeg')} />
+              </View>
+            </View>
+
+            <View style={{flex: 0, flexDirection: 'row'}}>
+              <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+              <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+              <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+            </View>
+
+            <View style={styles.wrapImages}>
+            <View>
+                <Image style={styles.imgMain} source={require('../assets/image/example2.jpeg')} />
+              </View>
+              <View style={{flex: 0, flexDirection: 'column'}}>
+                <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+                <Image style={styles.imgSecondary} source={require('../assets/image/example.jpeg')} />
+              </View>
             </View>
             
-            <View style={styles.topTab}>
-                <IconBack width={20} height={20} />
-                <TouchableOpacity onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
-                    <Text style={styles.forYouText}>Boohoo.com</Text>
-                </TouchableOpacity >
-                <IconUpload width={20} height={20} />
-            </View>
-            <View style={styles.wraplogoText}>
-                <Image style={styles.imgProfile} source={require('../assets/icons/brand.jpg')} />
-                <Text style={styles.logoText}>Trendway</Text>   
-            </View>
-            <View>
-            <Image style={styles.imgMainOne} source={require('../assets/image/model.png')} />
-            <View style={{margin: 20}}>
-              <Text style={styles.bold}>Lace Floral Evening Dress</Text>
-              <Text style={styles.bold}>$18.99</Text>
-              <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-              nisi ut aliquip ex ea commodo consequat. </Text>
-              </View>
-              <View style={styles.wrapOption}>
-            <View style={styles.option}>
-                <IconGarder style={styles.optionItem} width={40} height={40} />
-                <IconLike  style={styles.optionItem} width={40} height={40} />
-                <IconShare style={styles.optionItem} width={40} height={40} />
-            </View>
-            <View>
-                <TouchableOpacity style={styles.forYou} onPress={() => { console.log('You tapped the Decrypt button!'); }} onPress={() => Alert.alert('Button with adjusted color pressed')}>
-                    <Text style={styles.forYouText}>Buy</Text>
-                </TouchableOpacity >
-            </View>
-            </View>
-            </View>
-            <View style={styles.wraplogoText}>
-                <Text style={styles.logoText}>SIMILAR</Text>
-                <Text style={styles.logoText}>STYLED WITH</Text>
-            </View>
-            <View style={styles.wrapImages}>
-              <ScrollView style={{height:800}} horizontal={true}>
-              <View>
-                <Image style={styles.imgMain} source={require('../assets/image/model.png')} />
-                <View style={{marginLeft: 20}}>
-                    <Text style={styles.bold}>$32</Text>  
-                    <Text style={styles.bold}>Pretty Little Thing</Text>  
-                    <Text style={styles.bold}>Black Dress</Text>  
-                </View>
-              </View>
-              <View>
-                <Image style={styles.imgMain} source={require('../assets/image/model.png')} />
-                <View style={{marginLeft: 20}}>
-                    <Text style={styles.bold}>$32</Text>  
-                    <Text style={styles.bold}>Pretty Little Thing</Text>  
-                    <Text style={styles.bold}>Black Dress</Text>  
-                </View>
-              </View>
-              <View>
-                <Image style={styles.imgMain} source={require('../assets/image/model.png')} />
-                <View style={{marginLeft: 20}}>
-                    <Text style={styles.bold}>$32</Text>  
-                    <Text style={styles.bold}>Pretty Little Thing</Text>  
-                    <Text style={styles.bold}>Black Dress</Text>  
-                </View>              
-              </View>
-              </ScrollView>
-            </View>    
-            <View style={styles.bottomBar}>
-            </View>
         </ScrollView>
         </SafeAreaView>
         </View>
@@ -123,37 +90,9 @@ const styles = StyleSheet.create({
       topTab: {
         flex: 0,
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        margin: 20,
-        paddingTop: 10,
-        alignItems: 'center'
+        justifyContent: 'center',
+        marginTop: 40
       },
-      wrapContainer: {
-        flexDirection: 'row'
-      },
-      input: {
-        height: 55,
-        borderColor: colors.white,
-        borderWidth: 1,
-        backgroundColor: colors.lightGray,
-        color: colors.black,
-        margin: 10,
-        borderRadius: 12,
-        width: scale(360),
-    },
-      topTab: {
-        flex: 0,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        margin: 20,
-        paddingTop: 10,
-        alignItems: 'center'
-      },
-      categories: {
-        flexDirection: 'row',
-        justifyContent: 'space-evenly',
-        alignItems:'center',
-    },  
       bold: {
         fontWeight: "bold",
         fontSize: 16,
@@ -168,6 +107,7 @@ const styles = StyleSheet.create({
         flex: 0,
         flexDirection: 'row',
         alignItems: 'center',
+        margin: 15
       },
       logoText: {
         fontWeight: "bold",
@@ -175,26 +115,10 @@ const styles = StyleSheet.create({
       padding: 10,
       textAlign: 'center'
       },
-
-      wrapImages: {
-          flex: 0,
-          flexDirection: 'row',
-          height: scale(445),
-        },
-      imgMain: {
-        width: scale(210),
-        height: scale(430),
-        margin: 5,
-        borderRadius: 20
-      },
-      imgMainOne: {
-        width: scale(410),
-        height: scale(750),
-      },
       forYou: {
         backgroundColor: colors.mainBlue,
-        borderRadius: 5,
-        width: 150
+        borderRadius: 20,
+        width: 100
       },
       forYouText: {
       fontWeight: "bold",
@@ -202,9 +126,28 @@ const styles = StyleSheet.create({
       padding: 10,
       textAlign: 'center'
     },
+    horizontal: {
+        opacity: 0.1,
+        backgroundColor: '#182E44',
+        height: scale(2),
+        marginTop: 20,
+        width: scale(400)
+      },
+      wrapImages: {
+          flexDirection: 'row',
+          height: scale(255)
+        },
+      imgMain: {
+        width: scale(250),
+        height: scale(250),
+      },
+      imgMainOne: {
+        width: scale(210),
+        height: scale(350),
+      },
       imgSecondary: {
-       maxHeight: 133,
-       width: scale(180),
+       maxHeight: 110,
+       width: scale(110),
        margin: 5
       },
       imgSecondaryTwo: {
@@ -216,10 +159,6 @@ const styles = StyleSheet.create({
         maxHeight: 133,
         width: scale(70),
         margin: 5
-       },
-       img: {
-        maxWidth: scale(350),
-        height: scale(380),
        },
       wrapOption: {
       flexDirection: 'row',
@@ -235,9 +174,12 @@ const styles = StyleSheet.create({
       optionItem: {
         marginLeft: 10
       },
-
       bottomBar: {
-          marginTop: 120
-      }
+        justifyContent: 'space-around',
+        flexDirection:'row',
+        alignItems: 'center',
+        padding: 15,
+        backgroundColor: '#fff', 
+    }
+    
 })
-

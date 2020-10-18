@@ -1,4 +1,4 @@
-#Thu Oct 08 10:15:08 EEST 2020
-base.0=/home/lyana/My_Trend_Way/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Sun Oct 18 12:38:16 EEST 2020
+base.0=/home/lyana/TTT/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

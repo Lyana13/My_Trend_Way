@@ -9,10 +9,10 @@ import IconShare from '../assets/icons/ShareTel.svg';
 import IconOutfits from '../assets/icons/Outfits.svg';
 import IconCreate from '../assets/icons/Create.svg';
 import IconPlusPeople from '../assets/icons/IconPlusPeople.svg';
-import IconHeart from '../assets/icons/heart-regular.svg';
+import IconProfile from '../assets/icons/Profile.svg';
 import IconBack from '../assets/icons/Back.svg';
 import IconUpload from '../assets/icons/Share-outside.svg';
-import IconShareOutside from '../assets/icons/Share-outside.svg';
+import IconFollow from '../assets/icons/Follow.svg';
 import {colors, scale} from '../styles';
 
 
@@ -25,9 +25,9 @@ export const SearchUsers = ({title}) => {
               <TextInput placeholder = "     Search" style={styles.input} onChangeText={text => onChangeText(text)} />
           </View>
           <View style={styles.categories}>
-            <IconOutfits  width={25} height={60} />
-            <IconHeart  width={30} height={60} />
-            <IconCreate  width={30} height={60} />
+            <IconOutfits style={styles.categoriesItem}  width={25} height={60} />
+            <IconCreate  style={styles.categoriesItem} width={30} height={60} />
+            <IconProfile style={styles.categoriesItem}  width={30} height={60} />
           </View>
           <View style={styles.wrapColor}>
             <View style={styles.wrapContainer}>
@@ -36,15 +36,15 @@ export const SearchUsers = ({title}) => {
               <Text style={styles.titleName}>Lilly.james2</Text>
             </View>
             <View style={styles.btn}>
-              <IconShareOutside width={25} height={60} />
+              <IconFollow width={25} height={30} />
             </View>
           </View>
           <View style={styles.wrapContainer}>
             <Image style={styles.img} source={require('../assets/image/search.png')} />
             <View style={{marginLeft: 20}}>
-              <Text style={styles.bold}>42 Outfits</Text>  
-              <Text style={styles.bold}>45 Followers</Text>  
-              <Text style={styles.bold}>132 Following</Text>  
+              <Text style={styles.text}>42 Outfits</Text>  
+              <Text style={styles.text}>45 Followers</Text>  
+              <Text style={styles.text}>132 Following</Text>  
             </View>
             </View>
           </View>   
@@ -56,15 +56,15 @@ export const SearchUsers = ({title}) => {
               <Text style={styles.titleName}>Lilly.james2</Text>
             </View>
             <View style={styles.btn}>
-              <IconShareOutside width={25} height={60} />
+              <IconFollow width={25} height={60} /> 
             </View>
           </View>
           <View style={styles.wrapContainer}>
             <Image style={styles.img} source={require('../assets/image/search.png')} />
             <View style={{marginLeft: 20}}>
-              <Text style={styles.bold}>42 Outfits</Text>  
-              <Text style={styles.bold}>45 Followers</Text>  
-              <Text style={styles.bold}>132 Following</Text>  
+              <Text style={styles.text}>42 Outfits</Text>  
+              <Text style={styles.text}>45 Followers</Text>  
+              <Text style={styles.text}>132 Following</Text>  
             </View>
             </View>
           </View>  
@@ -76,15 +76,15 @@ export const SearchUsers = ({title}) => {
               <Text style={styles.titleName}>Lilly.james2</Text>
             </View>
             <View style={styles.btn}>
-              <IconShareOutside width={25} height={60} />
+             <IconFollow width={25} height={60} />
             </View>
           </View>
           <View style={styles.wrapContainer}>
             <Image style={styles.img} source={require('../assets/image/search.png')} />
             <View style={{marginLeft: 20}}>
-              <Text style={styles.bold}>42 Outfits</Text>  
-              <Text style={styles.bold}>45 Followers</Text>  
-              <Text style={styles.bold}>132 Following</Text>  
+              <Text style={styles.text}>42 Outfits</Text>  
+              <Text style={styles.text}>45 Followers</Text>  
+              <Text style={styles.text}>132 Following</Text>  
             </View>
             </View>
           </View>  
@@ -96,15 +96,15 @@ export const SearchUsers = ({title}) => {
               <Text style={styles.titleName}>Lilly.james2</Text>
             </View>
             <View style={styles.btn}>
-              <IconShareOutside width={25} height={60} />
+            <IconFollow width={25} height={60} />
             </View>
           </View>
           <View style={styles.wrapContainer}>
             <Image style={styles.img} source={require('../assets/image/search.png')} />
             <View style={{marginLeft: 20}}>
-              <Text style={styles.bold}>42 Outfits</Text>  
-              <Text style={styles.bold}>45 Followers</Text>  
-              <Text style={styles.bold}>132 Following</Text>  
+              <Text style={styles.text}>42 Outfits</Text>  
+              <Text style={styles.text}>45 Followers</Text>  
+              <Text style={styles.text}>132 Following</Text>  
             </View>
             </View>
           </View>    
@@ -120,7 +120,8 @@ const styles = StyleSheet.create({
       },
       wrapColor: {
         backgroundColor: colors.lightGray2,
-        margin: 10
+        margin: 10,
+        padding: 15
       },  
       innerContainer: {
         flexDirection: 'row'
@@ -133,13 +134,16 @@ const styles = StyleSheet.create({
         color: colors.black,
         margin: 10,
         borderRadius: 12,
-        width: scale(360),
+        width: '100%',
     },
       categories: {
         flexDirection: 'row',
-        justifyContent: 'space-evenly',
-        alignItems:'center',
+        justifyContent: 'center'
     },  
+    categoriesItem: {
+      marginLeft: 20,
+      marginRight: 20
+    },
       titleName: {
         fontWeight: "bold",
         fontSize: 18,
@@ -148,12 +152,11 @@ const styles = StyleSheet.create({
         marginLeft: 20
       },
       btn: {
-        marginLeft: 170,
-        marginTop: 10
+        marginLeft: 150,
+        marginTop: 5
       },
-      bold: {
-        fontWeight: "bold",
-        fontSize: 16,
+      text: {
+        fontSize: 18,
         paddingTop: 5,
         paddingBottom: 5,
       },
