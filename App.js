@@ -27,6 +27,10 @@ import { SearchUsers } from './src/components/SearchUsers'
 import { SearchOutfits } from './src/components/SearchOutfits' 
 import { SearchItems } from './src/components/SearchItems' 
 import { TopTab } from './src/components/TopTab' 
+import { Filter } from './src/components/Filter' 
+import { FilterColour } from './src/components/FilterColour'
+import { FilterCategory } from './src/components/FilterCategory'
+import { FilterBrand } from './src/components/FilterBrand'
 
 const popuplist = [
   {
@@ -91,7 +95,12 @@ const App = () => {
       {/* <SearchUsers /> */}
       {/* <SearchOutfits /> */}
       {/* <SearchItems /> */}
-      <TopTab />
+      {/* <TopTab /> */}
+      <Filter />
+      {/* <FilterColour /> */}
+      {/* <FilterCategory /> */}
+      {/* <FilterBrand /> */}
+
      
       {/* <NewPassword /> */}
     {/* <Help /> */}

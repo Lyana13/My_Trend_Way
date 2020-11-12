@@ -29,13 +29,13 @@ export const TopTab = ({title}) => {
         <ScrollView>
             <View style={styles.categories}>
                 <TouchableOpacity style={styles.buttonNext} onPress={() => setCurrentTab('outfits')}>
-                <IconOutfits style={{color: currentTab == 'outfits' ? '#ccc' : '#000', ...styles.categoriesItem}} width={25} height={60} />
+                <IconOutfits style={{color: currentTab == 'outfits' ? '#26FBDA' : '#000', ...styles.categoriesItem}} width={25} height={60} />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonNext} onPress={() => setCurrentTab('users')}>
-                <IconCreate  style={{color: currentTab == 'users' ? '#ccc' : '#000', ...styles.categoriesItem}} width={30} height={60} />
+                <IconCreate  style={{color: currentTab == 'users' ? '#26FBDA' : '#000', ...styles.categoriesItem}} width={30} height={60} />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonNext} onPress={() => setCurrentTab('items')}>
-                <IconProfile style={{color: currentTab == 'items' ? '#ccc' : '#000', ...styles.categoriesItem}} width={30} height={60} />
+                <IconProfile style={{color: currentTab == 'items' ? '#26FBDA' : '#000', ...styles.categoriesItem}} width={30} height={60} />
                 </TouchableOpacity>
             </View>
                 {renderContext(currentTab)}
