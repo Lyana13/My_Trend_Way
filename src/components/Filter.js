@@ -95,10 +95,8 @@ export const Filter = ({title}) => {
                 <View >
                     <Text style={styles.bold}>Filter By</Text>  
                     <View style={styles.wrapFlex}>
-                    
                       <Text>Category</Text>
                       <IconForward width={20} height={20} />
-
                     </View>
                     <View style={styles.wrapFlex}>
                       <ToggleBox label='Brand' value='Tap' style={{}}>

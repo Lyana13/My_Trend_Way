@@ -96,12 +96,6 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
     },
-    forgotPass: {
-        fontSize: 15,
-        textDecorationLine: 'underline',
-        margin: 25,
-        marginHorizontal: 80
-    },
   
       image: {
         flex: 1,

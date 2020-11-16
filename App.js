@@ -31,6 +31,7 @@ import { Filter } from './src/components/Filter'
 import { FilterColour } from './src/components/FilterColour'
 import { FilterCategory } from './src/components/FilterCategory'
 import { FilterBrand } from './src/components/FilterBrand'
+import { Reactions } from './src/components/Reactions'
 
 const popuplist = [
   {
@@ -96,7 +97,8 @@ const App = () => {
       {/* <SearchOutfits /> */}
       {/* <SearchItems /> */}
       {/* <TopTab /> */}
-      <Filter />
+      <Reactions />
+      {/* <Filter /> */}
       {/* <FilterColour /> */}
       {/* <FilterCategory /> */}
       {/* <FilterBrand /> */}
