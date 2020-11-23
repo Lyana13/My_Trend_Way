@@ -23,9 +23,9 @@ export const Reactions = ({title}) => {
     return (
         <View style={styles.container}>
             <View style={styles.topHeader}>
-            <IconGoBack width={20} height={18}/>
-            <Text style={styles.textBold}>Reactions</Text>
-            <Text></Text>
+                <IconGoBack width={20} height={18}/>
+                <Text style={styles.textBold}>Reactions</Text>
+                <Text></Text>
             </View>
         <SafeAreaView>
         <ScrollView>
@@ -52,8 +52,9 @@ const styles = StyleSheet.create({
     topHeader: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        marginTop: 40,
-        marginBottom: 20,
+        marginTop: 100,
+        marginBottom: 30,
+        marginLeft: 5,
         alignItems: 'center'
     },
     categories: {
@@ -63,6 +64,7 @@ const styles = StyleSheet.create({
 
     textBold: {
         fontWeight: 'bold',
-        fontSize: 20
+        fontSize: 20,
+        textAlign: 'center'
     }
 })

@@ -1,15 +1,8 @@
 import React from 'react'
 import { View, Text, StyleSheet,SafeAreaView,ScrollView, Image, Alert, TouchableOpacity, TextInput } from 'react-native'
-import IconGarder from '../assets/icons/garder.svg';
-import IconLike from '../assets/icons/Like-Product Page.svg';
-import IconShare from '../assets/icons/ShareTel.svg';
 import IconOutfits from '../assets/icons/Outfits.svg';
 import IconCreate from '../assets/icons/Create.svg';
-import IconPlusPeople from '../assets/icons/IconPlusPeople.svg';
 import IconProfile from '../assets/icons/Profile.svg';
-import IconBack from '../assets/icons/Back.svg';
-import IconUpload from '../assets/icons/Share-outside.svg';
-import IconFollow from '../assets/icons/Follow.svg';
 import {colors, scale} from '../styles';
 
 
@@ -30,13 +23,12 @@ export const Comments = ({title}) => {
               <Text style={styles.titleName}>Lilly.james2</Text>
               <Text>LOVE THIS!Going to wear It next weekend defenintly!</Text>
             </View>
-          
           </View>
           </View>  
           <View style={styles.comment}>
               <Image style={styles.imgProfile} source={require('../assets/image/users.png')} />
               <TextInput placeholder = "     Comment" style={styles.input} onChangeText={text => onChangeText(text)} />
-              <Text>Post</Text>
+              <Text style={styles.submitPost}>Post</Text>
           </View> 
         </ScrollView>
         </SafeAreaView>
@@ -49,22 +41,23 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
       },
       wrapColor: {
-        margin: 10,
-        padding: 15
+        padding: 25,
+        marginBottom: -30,
+        marginTop: -60
       },  
       innerContainer: {
         flexDirection: 'row',
-        alignItems: 'center',
+        alignItems: 'center'
       },
       input: {
         height: 50,
-        borderColor: colors.gray,
+        borderColor: colors.grayLight,
         borderWidth: 1,
         backgroundColor: colors.white,
         color: colors.black,
         margin: 10,
         borderRadius: 12,
-        width: '85%',
+        width: '90%',
     },
       categories: {
         flexDirection: 'row',
@@ -79,7 +72,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         paddingTop: 5,
         paddingBottom: 5,
-        marginLeft: 20
+        marginLeft: 20,
       },
       btn: {
         marginLeft: 150,
@@ -90,67 +83,18 @@ const styles = StyleSheet.create({
         paddingTop: 5,
         paddingBottom: 5,
       },
-      textPadding: {
-        paddingTop: 5,
-        paddingBottom: 5
-      },
-     
-      logoText: {
-        fontWeight: "bold",
-      fontSize: 18,
-      padding: 10,
-      textAlign: 'center'
-      },
-
       comment: {
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        padding: 25
       },
-      imgMainOne: {
-        width: scale(410),
-        height: scale(750),
-      },
-      forYou: {
-        backgroundColor: colors.mainBlue,
-        borderRadius: 5,
-        width: 150
-      },
-      imgSecondary: {
-       maxHeight: 133,
-       width: scale(180),
-       margin: 5
-      },
-      imgSecondaryTwo: {
-        maxHeight: 133,
-        width: scale(100),
-        margin: 5
-       },
-       imgSecondaryThree: {
-        maxHeight: 133,
-        width: scale(70),
-        margin: 5
-       },
        img: {
         width: scale(100),
         height: scale(100),
        },
-      wrapOption: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      padding: 15
-    },
-      option: {
-        justifyContent: 'flex-start',
-        flexDirection:'row',
-        alignItems: 'center',
-      },
-      optionItem: {
-        marginLeft: 10
-      },
-
-      bottomBar: {
-          marginTop: 120
+      submitPost: {
+        fontWeight: 'bold',
+        marginLeft: -50
       }
 })
