@@ -3,8 +3,21 @@ import { View, Text, StyleSheet,SafeAreaView,ScrollView, Image, Alert, Touchable
 import IconOutfits from '../assets/icons/Outfits.svg';
 import IconCreate from '../assets/icons/Create.svg';
 import IconProfile from '../assets/icons/Profile.svg';
+import { Comment } from './Comment' 
 import {colors, scale} from '../styles';
 
+let comment = [
+  {
+    avatar: 'https://reactnative.dev/img/tiny_logo.png',
+    name: 'Lilly.james2',
+    post: 'LOVE THIS!Going to wear It next weekend defenintly!'
+  },
+  {
+    avatar: 'https://reactnative.dev/img/tiny_logo.png',
+    name: 'Trendway_777',
+    post: 'LOVE THIS!Going to wear It next weekend defenintly!'
+  }
+]
 
 export const Comments = ({title}) => {
     return (
@@ -16,14 +29,11 @@ export const Comments = ({title}) => {
             <IconCreate  style={styles.categoriesItem} width={30} height={60} />
             <IconProfile style={styles.categoriesItem}  width={30} height={60} />
           </View>
-          <View style={styles.wrapColor}>
-            <View style={styles.wrapContainer}>
-            <View style={styles.innerContainer}>
-              <Image style={styles.imgProfile} source={require('../assets/image/users.png')} />
-              <Text style={styles.titleName}>Lilly.james2</Text>
-              <Text>LOVE THIS!Going to wear It next weekend defenintly!</Text>
-            </View>
-          </View>
+          <View style={styles.wrap}>
+            {comment.map((comment) => 
+                <Comment data={comment}  />
+              )}
+
           </View>  
           <View style={styles.comment}>
               <Image style={styles.imgProfile} source={require('../assets/image/users.png')} />
@@ -37,16 +47,13 @@ export const Comments = ({title}) => {
 }
 
 const styles = StyleSheet.create({
-      wrapContainer: {
-        flexDirection: 'row',
-      },
-      wrapColor: {
+      wrap: {
         padding: 25,
         marginBottom: -30,
         marginTop: -60
       },  
       innerContainer: {
-        flexDirection: 'row',
+        flexDirection: 'column',
         alignItems: 'center'
       },
       input: {

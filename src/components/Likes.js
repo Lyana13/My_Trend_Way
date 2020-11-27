@@ -3,9 +3,19 @@ import { View, Text, StyleSheet,SafeAreaView,ScrollView, Image, Alert, Touchable
 import IconOutfits from '../assets/icons/Outfits.svg';
 import IconCreate from '../assets/icons/Create.svg';
 import IconProfile from '../assets/icons/Profile.svg';
-import IconFollow from '../assets/icons/Follow.svg';
+import { Like } from './Like' 
 import {colors, scale} from '../styles';
 
+let likes = [
+  {
+    avatar: 'https://reactnative.dev/img/tiny_logo.png',
+    name: 'Lilly.james2'
+  },
+  {
+    avatar: 'https://reactnative.dev/img/tiny_logo.png',
+    name: 'Trendway_777'
+  }
+]
 export const Likes = ({title}) => {
     return (
         <View>
@@ -21,39 +31,13 @@ export const Likes = ({title}) => {
           </View>
           <View style={styles.wrapColor}>
             <View style={styles.wrapContainer}>
-            <View style={styles.innerContainer}>
-              <Image style={styles.imgProfile} source={require('../assets/image/users.png')} />
-              <Text style={styles.titleName}>Lilly.james2</Text>
-            </View>
-            <View style={styles.btn}>
-              <IconFollow width={25} height={30} />
-            </View>
+            {likes.map((like) => 
+                <Like data={like}  />
+              )}
+          
           </View>
           </View>
 
-          <View style={styles.wrapColor}>
-            <View style={styles.wrapContainer}>
-            <View style={styles.innerContainer}>
-              <Image style={styles.imgProfile} source={require('../assets/image/users.png')} />
-              <Text style={styles.titleName}>ruben_02</Text>
-            </View>
-            <View style={styles.btn}>
-              <IconFollow width={25} height={30} />
-            </View>
-          </View>
-          </View>
-
-          <View style={styles.wrapColor}>
-            <View style={styles.wrapContainer}>
-            <View style={styles.innerContainer}>
-              <Image style={styles.imgProfile} source={require('../assets/image/users.png')} />
-              <Text style={styles.titleName}>trendway_123</Text>
-            </View>
-            <View style={styles.btn}>
-              <IconFollow width={25} height={30} />
-            </View>
-          </View>
-          </View>
         </ScrollView>
         </SafeAreaView>
       </View>
@@ -62,12 +46,13 @@ export const Likes = ({title}) => {
 
 const styles = StyleSheet.create({
       wrapContainer: {
-        flexDirection: 'row',
+        flexDirection: 'column',
       },
       wrapColor: {
         backgroundColor: colors.lightGray2,
         padding: 15
       },  
+      
       innerContainer: {
         flexDirection: 'row'
       },  
