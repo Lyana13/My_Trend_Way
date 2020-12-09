@@ -32,7 +32,7 @@ import { FilterColour } from './src/components/FilterColour'
 import { FilterCategory } from './src/components/FilterCategory'
 import { FilterBrand } from './src/components/FilterBrand'
 import { Reactions } from './src/components/Reactions'
-
+import {InstagramHeartAnimation} from './src/components/InstagramHeartAnimation'
 const popuplist = [
   {
     id: 1,
@@ -97,7 +97,8 @@ const App = () => {
       {/* <SearchOutfits /> */}
       {/* <SearchItems /> */}
       {/* <TopTab /> */}
-      <Reactions />
+      {/* <Reactions /> */}
+      <InstagramHeartAnimation />
       {/* <Filter /> */}
       {/* <FilterColour /> */}
       {/* <FilterCategory /> */}
