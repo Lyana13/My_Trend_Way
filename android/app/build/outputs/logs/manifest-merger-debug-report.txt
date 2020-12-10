@@ -12,6 +12,7 @@ MERGED from [:invertase_react-native-apple-authentication] /home/lyana/MY_TRENA/
 MERGED from [:react-native-gesture-handler] /home/lyana/MY_TRENA/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /home/lyana/MY_TRENA/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-svg] /home/lyana/MY_TRENA/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-video] /home/lyana/MY_TRENA/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/0d523ca98df7ecd0f7d6c0c5c7a4928d/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/lyana/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -53,6 +54,7 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /home/lyana/.gradle/caches/tr
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/lyana/.gradle/caches/transforms-2/files-2.1/6be2a014b183f901f445843255d09b0b/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/16a7a717bdfddcdefa68c6d5a5ac9032/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -166,6 +168,8 @@ MERGED from [:react-native-reanimated] /home/lyana/MY_TRENA/node_modules/react-n
 MERGED from [:react-native-reanimated] /home/lyana/MY_TRENA/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-svg] /home/lyana/MY_TRENA/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-svg] /home/lyana/MY_TRENA/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] /home/lyana/MY_TRENA/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /home/lyana/MY_TRENA/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/0d523ca98df7ecd0f7d6c0c5c7a4928d/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/0d523ca98df7ecd0f7d6c0c5c7a4928d/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -248,6 +252,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/lyana/.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/lyana/.gradle/caches/transforms-2/files-2.1/6be2a014b183f901f445843255d09b0b/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/lyana/.gradle/caches/transforms-2/files-2.1/6be2a014b183f901f445843255d09b0b/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/lyana/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/16a7a717bdfddcdefa68c6d5a5ac9032/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41

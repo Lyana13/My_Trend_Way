@@ -72,9 +72,10 @@ export const InstagramHeartAnimation = ({title}) => {
     <View style={styles.container}>
       {visible && <Animated.Image
         source={{
-        uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbySopxhYHbpzaomZQdtSfnC_u0Fo3fXECNQ&usqp=CAU',
+        uri:'https://www.pngfind.com/pngs/m/6-62455_instagram-heart-emoji-free-download-transparent-heart-symbol.png',
         }}
-        style={[styles.imgProfile, 
+        
+        style={[styles.heartLike, 
           { transform: [{scale: springValue}], alignSelf: 'center' }
         ]}>
       </Animated.Image>
@@ -131,6 +132,12 @@ const styles = StyleSheet.create({
   imgProfile: {
     width:scale(410),
     height:scale(220)
+  },
+  heartLike: {
+    width: scale(60),
+    height: scale(60),
+    position: 'absolute',
+    zIndex: 1
   },
   icon:{
     position: 'relative',

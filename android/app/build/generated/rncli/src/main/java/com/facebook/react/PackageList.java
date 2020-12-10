@@ -19,6 +19,8 @@ import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-svg
 import com.horcrux.svg.SvgPackage;
+// react-native-video
+import com.brentvatne.react.ReactVideoPackage;
 
 public class PackageList {
   private Application application;
@@ -67,7 +69,8 @@ public class PackageList {
       new AppleAuthenticationAndroidPackage(),
       new RNGestureHandlerPackage(),
       new ReanimatedPackage(),
-      new SvgPackage()
+      new SvgPackage(),
+      new ReactVideoPackage()
     ));
   }
 }

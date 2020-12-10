@@ -70,7 +70,7 @@ const App = () => {
         onTouchOutside={onClosePopup}
         data={popuplist}
     />  */}
-      {/* <Welcome /> */}
+      <Welcome />
        {/* <SignIn  /> */}
       {/* <CreateAccount /> */}
       {/* <MobileNumber /> */}
@@ -98,7 +98,7 @@ const App = () => {
       {/* <SearchItems /> */}
       {/* <TopTab /> */}
       {/* <Reactions /> */}
-      <InstagramHeartAnimation />
+      {/* <InstagramHeartAnimation /> */}
       {/* <Filter /> */}
       {/* <FilterColour /> */}
       {/* <FilterCategory /> */}
