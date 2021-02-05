@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.awesomeproject"
+3    package="com.trendway"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -9,60 +9,179 @@
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/home/lyana/MY_TRENA/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/home/lyana/MY_TRENA/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/home/lyana/my-13/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/lyana/my-13/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:4:22-64
+12-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:6:5-25:19
-16        android:name="com.awesomeproject.MainApplication"
-16-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/1667af20f7c5fbd17b27fd9fd70bfb91/core-1.2.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/home/lyana/MY_TRENA/android/app/src/debug/AndroidManifest.xml:7:18-53
-25        <activity
-25-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:13:7-23:18
-26            android:name="com.awesomeproject.MainActivity"
-26-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:14:9-37
-27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-27-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:16:9-86
-28            android:label="@string/app_name"
-28-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:15:9-41
-29            android:launchMode="singleTask"
-29-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:17:9-40
-30            android:windowSoftInputMode="adjustResize" >
-30-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:18:9-51
-31            <intent-filter>
-31-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:19:9-22:25
-32                <action android:name="android.intent.action.MAIN" />
-32-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:20:13-65
-32-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:20:21-62
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:21:13-73
-34-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:21:23-70
-35            </intent-filter>
-36        </activity>
-37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-37-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:24:7-84
-37-->/home/lyana/MY_TRENA/android/app/src/main/AndroidManifest.xml:24:17-81
-38    </application>
-39
-40</manifest>
+13-->[com.facebook.flipper:flipper:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/15cacb4283a7a012221743aaad25fff1/jetified-flipper-0.37.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.37.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/15cacb4283a7a012221743aaad25fff1/jetified-flipper-0.37.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.android.installreferrer:installreferrer:1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/9ddaf15842723ceb1f46a5334b6ee45b/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+14-->[com.android.installreferrer:installreferrer:1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/9ddaf15842723ceb1f46a5334b6ee45b/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+15
+16    <application
+16-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:6:5-27:19
+17        android:name="com.trendway.MainApplication"
+17-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:7:7-38
+18        android:allowBackup="false"
+18-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:11:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.2.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/9c009181dadfbd319ae5d0265e0584c7/core-1.2.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:9:7-41
+22        android:label="@string/app_name"
+22-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:8:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:10:7-52
+24        android:supportsRtl="true"
+24-->[com.facebook.android:facebook-login:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/85042f4b06c86cf0114c58aad8a6257b/jetified-facebook-login-7.1.0/AndroidManifest.xml:28:18-44
+25        android:theme="@style/AppTheme"
+25-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/home/lyana/my-13/android/app/src/debug/AndroidManifest.xml:7:18-53
+27        <activity
+27-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:13:7-23:18
+28            android:name="com.trendway.MainActivity"
+28-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:14:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:16:9-86
+30            android:label="@string/app_name"
+30-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:15:9-41
+31            android:launchMode="singleTask"
+31-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:17:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:18:9-51
+33            <intent-filter>
+33-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:19:9-22:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:20:13-65
+34-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:20:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:21:13-73
+36-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:21:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:24:9-86
+39-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:24:19-83
+40
+41        <meta-data
+41-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:25:9-107
+42            android:name="com.facebook.sdk.ApplicationId"
+42-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:25:20-65
+43            android:value="@string/facebook_app_id" />
+43-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:25:66-105
+44
+45        <activity
+45-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:9-184
+46            android:name="com.facebook.FacebookActivity"
+46-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:19-63
+47            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+47-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:64-148
+48            android:label="@string/app_name"
+48-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:149-181
+49            android:theme="@style/com_facebook_activity_theme" />
+49-->[com.facebook.android:facebook-common:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/d6c9c06bf12c1340723b8a7e9f2dd5aa/jetified-facebook-common-7.1.0/AndroidManifest.xml:33:13-63
+50        <activity
+50-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:185-544
+51            android:name="com.facebook.CustomTabActivity"
+51-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:195-240
+52            android:exported="true" >
+52-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:241-264
+53            <intent-filter>
+53-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:266-532
+54                <action android:name="android.intent.action.VIEW" />
+54-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:282-334
+54-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:290-331
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:335-394
+56-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:345-391
+57                <category android:name="android.intent.category.BROWSABLE" />
+57-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:395-456
+57-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:405-453
+58
+59                <data android:scheme="@string/fb_login_protocol_scheme" />
+59-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:457-515
+59-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:463-512
+60            </intent-filter>
+61            <intent-filter>
+61-->[com.facebook.android:facebook-common:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/d6c9c06bf12c1340723b8a7e9f2dd5aa/jetified-facebook-common-7.1.0/AndroidManifest.xml:39:13-48:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:282-334
+62-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:290-331
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:335-394
+64-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:345-391
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:395-456
+65-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:405-453
+66
+67                <data
+67-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:457-515
+68                    android:host="cct.com.trendway"
+69                    android:scheme="fbconnect" />
+69-->/home/lyana/my-13/android/app/src/main/AndroidManifest.xml:26:463-512
+70            </intent-filter>
+71        </activity>
+72
+73        <provider
+73-->[:react-native-webview] /home/lyana/my-13/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+74            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+74-->[:react-native-webview] /home/lyana/my-13/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+75            android:authorities="com.trendway.fileprovider"
+75-->[:react-native-webview] /home/lyana/my-13/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+76            android:exported="false"
+76-->[:react-native-webview] /home/lyana/my-13/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+77            android:grantUriPermissions="true" >
+77-->[:react-native-webview] /home/lyana/my-13/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+78            <meta-data
+78-->[:react-native-webview] /home/lyana/my-13/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:react-native-webview] /home/lyana/my-13/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+80                android:resource="@xml/file_provider_paths" />
+80-->[:react-native-webview] /home/lyana/my-13/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+81        </provider>
+82
+83        <activity android:name="com.facebook.CustomTabMainActivity" />
+83-->[com.facebook.android:facebook-common:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/d6c9c06bf12c1340723b8a7e9f2dd5aa/jetified-facebook-common-7.1.0/AndroidManifest.xml:34:9-71
+83-->[com.facebook.android:facebook-common:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/d6c9c06bf12c1340723b8a7e9f2dd5aa/jetified-facebook-common-7.1.0/AndroidManifest.xml:34:19-68
+84        <!--
+85         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+86         with the application context. This config is merged in with the host app's manifest,
+87         but there can only be one provider with the same authority activated at any given
+88         point; so if the end user has two or more different apps that use Facebook SDK, only the
+89         first one will be able to use the provider. To work around this problem, we use the
+90         following placeholder in the authority to identify each host application as if it was
+91         a completely different provider.
+92        -->
+93        <provider
+93-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:39:9-42:40
+94            android:name="com.facebook.internal.FacebookInitProvider"
+94-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:40:13-70
+95            android:authorities="com.trendway.FacebookInitProvider"
+95-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:41:13-72
+96            android:exported="false" />
+96-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:42:13-37
+97
+98        <receiver
+98-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:44:9-50:20
+99            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+99-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:45:13-86
+100            android:exported="false" >
+100-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:46:13-37
+101            <intent-filter>
+101-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:47:13-49:29
+102                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+102-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:48:17-95
+102-->[com.facebook.android:facebook-core:7.1.0] /home/lyana/.gradle/caches/transforms-2/files-2.1/e7c2e13a2ca591e75e2eb9042a6bd99b/jetified-facebook-core-7.1.0/AndroidManifest.xml:48:25-92
+103            </intent-filter>
+104        </receiver>
+105    </application>
+106
+107</manifest>

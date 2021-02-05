@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AwesomeProject</string>
+    <string name="app_name">TrendWay</string>
+    <string name="facebook_app_id">1011099789262334</string>
+    <string name="fb_login_protocol_scheme">fb1011099789262334</string>
 </resources>

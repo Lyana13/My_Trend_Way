@@ -1,4 +1,10 @@
-#Thu Dec 10 21:14:54 EET 2020
-base.0=/home/lyana/MY_TRENA/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Fri Feb 05 09:54:44 EET 2021
+path.2=classes3.dex
+path.1=classes2.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.2=/home/lyana/my-13/android/app/build/intermediates/dex/debug/mergeDexDebug/classes3.dex
+base.1=/home/lyana/my-13/android/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex
+base.0=/home/lyana/my-13/android/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
